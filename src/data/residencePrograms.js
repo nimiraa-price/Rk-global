@@ -66,9 +66,9 @@ const residencePrograms = [
       title: 'About Canada',
       subtitle: 'The Land of Opportunity',
       description:
-        "Canada is a G7 nation celebrated for quality of life, political stability, and inclusive immigration policies. With world-ranked universities, universal healthcare, and strong liveability rankings, it remains a top destination for entrepreneurs and families.",
+        "Canada is a G7 nation spanning the northern half of North America, celebrated for its extraordinary quality of life, political stability, and inclusive immigration policies. With world-ranked universities, universal healthcare, and consistently high rankings in global liveability indices, Canada attracts entrepreneurs, investors, and families from every continent.",
       secondaryDescription:
-        "Canada's Start-Up Visa Programme is designed for innovative founders who secure support from a designated venture capital fund, angel investor group, or business incubator.",
+        "Canada's Start-Up Visa Programme is uniquely designed for innovative entrepreneurs, requiring a commitment from a designated venture capital fund, angel investor group, or business incubator.",
       highlights: [
         'G7 nation with world-ranked institutions',
         'Universal healthcare and strong social infrastructure',
@@ -82,32 +82,32 @@ const residencePrograms = [
       {
         title: 'Permanent Residency Pathway',
         description:
-          'The Start-Up Visa provides a direct route to Canadian permanent residency for qualifying entrepreneurs and families.',
+          'The Start-Up Visa provides a direct route to Canadian permanent residency for qualifying entrepreneurs and their families.',
       },
       {
         title: 'World-Class Education',
         description:
-          'Canada offers globally ranked universities and public schools with exceptional educational opportunities.',
+          'Canada hosts globally ranked universities and public schools, offering exceptional educational opportunities for your children.',
       },
       {
         title: 'Universal Healthcare',
         description:
-          "Permanent residents can access Canada's publicly funded healthcare system.",
+          "Permanent residents access Canada's publicly funded healthcare system, one of the most comprehensive in the world.",
       },
       {
         title: 'Pathway to Citizenship',
         description:
-          'After three years of physical presence as a permanent resident, applicants may apply for citizenship.',
+          'After three years of physical presence as a permanent resident, applicants may apply for full Canadian citizenship.',
       },
       {
         title: 'Family Inclusion',
         description:
-          'A spouse and dependent children are included in the permanent residency application.',
+          'A spouse and dependent children are included in the permanent residency application at no additional investment cost.',
       },
       {
-        title: 'Global Mobility',
+        title: 'Visa-Free Travel',
         description:
-          'Canadian citizenship later enables one of the strongest passports globally for international travel.',
+          'Canadian passport holders enjoy visa-free or visa-on-arrival access to 185+ countries, among the strongest globally.',
       },
     ],
     processIntro:
@@ -128,7 +128,7 @@ const residencePrograms = [
       'Proof of sufficient settlement funds',
     ],
     qualificationDescription:
-      'To qualify for the Canada Start-Up Visa, applicants must secure support from one of three designated organisation types.',
+      'To qualify for the Canada Start-Up Visa, applicants must secure support from one of three designated organisation types:',
     qualificationOptions: [
       'Designated venture capital fund (CAD 200,000+)',
       'Designated angel investor group (CAD 75,000+)',
@@ -137,7 +137,7 @@ const residencePrograms = [
     investment: {
       title: 'Investment Options for Canada Residency',
       description:
-        'Canada requires a commitment from a designated organisation rather than a direct government investment.',
+        "Canada's Start-Up Visa requires a financial commitment from a designated organisation rather than a direct government investment. Levels vary by organisation type.",
       stats: [
         { value: '75k', label: 'Angel Investor\nMin.' },
         { value: '200k', label: 'VC Fund\nMin.' },
@@ -145,7 +145,7 @@ const residencePrograms = [
       ],
     },
     legalBasis:
-      "Canada's Start-Up Visa Programme is governed by the Immigration and Refugee Protection Act and administered by IRCC.",
+      "Canada's Start-Up Visa Programme is governed by the Immigration and Refugee Protection Act and its associated regulations, administered by Immigration, Refugees and Citizenship Canada (IRCC). RK Global Immigration provides full guidance in compliance with all applicable UAE and Canadian regulatory requirements for every client engagement.",
     faqs: makeFaqs(
       [
         'What is the Canada Start-Up Visa Programme?',
@@ -168,7 +168,7 @@ const residencePrograms = [
     categoryLabel: 'Residency by Investment',
     heroTitle: 'CYPRUS RESIDENCY BY INVESTMENT PROGRAM',
     heroDescription:
-      "An EU permanent residency permit from EUR 300,000, with one of the fastest processing timelines in Europe.",
+      'An EU permanent residency permit from EUR 300,000, with one of the fastest processing timelines in Europe.',
     stats: [
       { value: 'EUR 300,000', label: 'Min.\nInvestment' },
       { value: '2 Months', label: 'Processing\nTime' },
@@ -179,9 +179,9 @@ const residencePrograms = [
       title: 'About Cyprus',
       subtitle: "Europe's Eastern Mediterranean Gem",
       description:
-        'Cyprus is an EU member state with strong legal certainty, strategic location, and a business-friendly environment. It offers a practical and efficient route for investors seeking a European base.',
+        'Cyprus is an EU member state located in the northeastern Mediterranean Sea, offering a unique blend of European governance, Middle Eastern proximity, and British legal heritage. With over 340 days of sunshine annually, a highly educated English-speaking workforce, and a competitive corporate tax rate of 12.5%, Cyprus is consistently ranked among Europe\'s most attractive investment destinations.',
       secondaryDescription:
-        'Permanent residency is granted for life with no minimum stay requirement, with a visit required once every two years to maintain status.',
+        'Cyprus permanent residency is granted for life, with no obligation to reside in the country, and may be extended to dependents and family members.',
       highlights: [
         'EU member state with 12.5% corporate tax',
         'Permanent residency granted for life',
@@ -192,14 +192,39 @@ const residencePrograms = [
     benefitsIntro:
       'Invest to secure residency and access world-class living standards, business access, and global mobility.',
     benefits: [
-      { title: 'Fast EU Processing', description: 'Applications are generally processed in around two months.' },
-      { title: 'Lifetime Permit', description: 'Permanent residency is granted for life, subject to maintaining investment conditions.' },
-      { title: 'EU Access Benefits', description: 'Residency in an EU member state supports long-term legal and economic stability.' },
-      { title: 'Favourable Tax Regime', description: 'Cyprus offers competitive tax planning advantages for international investors.' },
-      { title: 'No Residency Obligation', description: 'No ongoing minimum stay requirement, with periodic visit obligations only.' },
-      { title: 'Family Coverage', description: 'Spouse, children, and qualifying parents can be included in one file.' },
+      {
+        title: 'Fastest EU PR in Europe',
+        description:
+          'Cyprus processes residency applications in approximately two months, the fastest EU permanent residency timeline available.',
+      },
+      {
+        title: 'Lifetime Permit',
+        description:
+          'Cyprus permanent residency is granted for life with no renewal requirements, provided the investment is maintained.',
+      },
+      {
+        title: 'EU Access Benefits',
+        description:
+          'Residency in an EU member state offers stability, legal certainty, and access to the European financial and business ecosystem.',
+      },
+      {
+        title: 'Favourable Tax Regime',
+        description:
+          'Cyprus offers 12.5% corporate tax, zero dividend tax for non-domiciled residents, and no inheritance or wealth tax.',
+      },
+      {
+        title: 'No Residency Obligation',
+        description:
+          'There is no minimum stay requirement. Applicants are required to visit Cyprus just once every two years to maintain status.',
+      },
+      {
+        title: 'Family Coverage',
+        description:
+          'Spouse, children under 25, and parents of both applicant and spouse may be included in a single application.',
+      },
     ],
-    processIntro: "This step-by-step process illustrates Cyprus's residency application journey.",
+    processIntro:
+      "This step-by-step process illustrates Cyprus's permanent residency by investment application journey.",
     processSteps: [
       'Advisory Consultation',
       'Property Selection',
@@ -209,23 +234,23 @@ const residencePrograms = [
       'Permit Issuance',
     ],
     requirementsSummary:
-      'Applicants must be non-EU nationals aged 18 and above, with clean record and sufficient financial means.',
+      'Applicants must be non-EU nationals aged 18 and above, with a clean criminal record and sufficient financial means to support themselves without employment in Cyprus.',
     requirementsChecklist: [
       'Clean criminal record required',
       'Proof of investment funds',
       'Annual income of EUR 30,000+ from abroad',
     ],
     qualificationDescription:
-      'Investors may qualify through approved real estate investment routes in Cyprus.',
+      'Investors may qualify for Cyprus permanent residency through a qualifying real estate investment:',
     qualificationOptions: [
       'Purchase of new residential property EUR 300,000+',
-      'Property purchased from developer (VAT-exclusive)',
-      'Investment maintained for duration of residency',
+      'Property must be purchased from a developer (VAT-exclusive)',
+      'Investment must be maintained for the duration of residency',
     ],
     investment: {
       title: 'Real Estate Investment Options for Cyprus Residency',
       description:
-        'Cyprus residency is secured through approved new developments with strong long-term permit fundamentals.',
+        'Cyprus residency is primarily secured through residential real estate in approved new developments, offering both permit access and strong investment fundamentals.',
       stats: [
         { value: '300k', label: 'Min.\nInvestment' },
         { value: '5%+', label: 'Rental\nYield' },
@@ -233,7 +258,7 @@ const residencePrograms = [
       ],
     },
     legalBasis:
-      "Cyprus's programme is governed by Regulation 6(2) of the Aliens and Immigration Law and administered by the Civil Registry and Migration Department.",
+      "Cyprus's residency by investment programme is governed by Regulation 6(2) of the Aliens and Immigration Law, administered by the Civil Registry and Migration Department. RK Global Immigration ensures full legal compliance across all UAE and Cypriot regulatory requirements, preparing every application to the highest standard of documentary completeness.",
     faqs: makeFaqs(
       [
         'What is the minimum investment for Cyprus residency?',
@@ -267,27 +292,52 @@ const residencePrograms = [
       title: 'About Greece',
       subtitle: 'The Cradle of Civilisation',
       description:
-        'Greece is an EU and Schengen member with strong cultural appeal, strategic mobility, and an active real estate market attractive to international investors.',
+        "Greece is a southern European EU member state with a rich 3,000-year history, a coastline stretching 13,676 kilometres, and an economy anchored in tourism, shipping, and real estate. As a full Schengen member, Greece provides residency holders with freedom of movement across 27 European countries, making it one of the most strategically valuable residency destinations in the world.",
       secondaryDescription:
-        'The Golden Visa provides Schengen mobility and a long-term path toward EU citizenship for qualifying residents.',
+        "Greece's property market continues to offer competitive values relative to Western European counterparts, while Schengen access remains its most compelling strategic advantage.",
       highlights: [
-        'Full Schengen Area access for residents',
+        'Full Schengen Area access for all residents',
         'No minimum stay requirement',
         'Path to EU citizenship after 7 years',
-        'Real estate market with strong yields',
+        'Thriving real estate market with strong yields',
       ],
     },
     benefitsIntro:
       'Invest to secure residency and access world-class living standards, business access, and global mobility.',
     benefits: [
-      { title: 'Schengen Area Access', description: 'Travel flexibility across Schengen countries with a Greek residency permit.' },
-      { title: 'Low EU Entry Point', description: 'Competitive investment threshold for a Schengen residency programme.' },
-      { title: 'No Minimum Stay', description: 'Maintain permit status without mandatory annual stay requirements.' },
-      { title: '5-Year Renewable Permit', description: 'Permit renews indefinitely while investment conditions are met.' },
-      { title: 'Family Inclusion', description: 'Spouse, children, and qualifying parents can be included.' },
-      { title: 'Path to EU Citizenship', description: 'Eligible residents may apply for citizenship after statutory residence period.' },
+      {
+        title: 'Schengen Area Access',
+        description:
+          'Live and travel freely across all 27 Schengen countries with a Greece Golden Visa residency permit.',
+      },
+      {
+        title: 'Lowest EU Entry Point',
+        description:
+          "At EUR 250,000, Greece offers the lowest qualifying investment of any Schengen residency programme in Europe.",
+      },
+      {
+        title: 'No Minimum Stay',
+        description:
+          'There is no minimum residency requirement. Investors may live anywhere and still maintain their Greek permit.',
+      },
+      {
+        title: '5-Year Renewable Permit',
+        description:
+          'The Golden Visa is issued for five years and renewable indefinitely, provided the investment is maintained.',
+      },
+      {
+        title: 'Full Family Inclusion',
+        description:
+          'Spouse, children under 21, and parents of both applicant and spouse are included in a single application.',
+      },
+      {
+        title: 'Path to EU Citizenship',
+        description:
+          'After seven years of residency, qualifying applicants may apply for full Greek and EU citizenship.',
+      },
     ],
-    processIntro: "This step-by-step process illustrates Greece's Golden Visa application journey.",
+    processIntro:
+      "This step-by-step process illustrates Greece's Golden Visa residency application journey.",
     processSteps: [
       'Advisory Consultation',
       'Property Selection',
@@ -297,22 +347,23 @@ const residencePrograms = [
       'Permit Issuance',
     ],
     requirementsSummary:
-      'Applicants must be non-EU nationals aged 18+, with clean criminal record and qualifying investment.',
+      'Applicants must be non-EU nationals aged 18 and above, with a clean criminal record and a qualifying real estate investment in Greece.',
     requirementsChecklist: [
       'Clean criminal record required',
       'Valid health insurance in Greece',
       'Proof of qualifying investment funds',
     ],
     qualificationDescription:
-      "Investors may qualify through Greece's approved Golden Visa investment routes.",
+      "Investors may qualify for Greece's Golden Visa through the following approved investment routes:",
     qualificationOptions: [
       'Real estate investment of EUR 250,000+ (selected zones)',
-      'Real estate investment of EUR 800,000 (premium zones)',
+      'Real estate investment of EUR 800,000 (Athens, Thessaloniki, islands)',
       'Government bonds or business investment alternatives',
     ],
     investment: {
       title: 'Real Estate Investment Options for Greece Golden Visa',
-      description: 'Greece offers competitive values and strong rental demand in key locations.',
+      description:
+        "Greece's property market offers exceptional investment value relative to Western Europe, with strong rental yields in Athens, Thessaloniki, and the Greek islands.",
       stats: [
         { value: '250k', label: 'Min.\nInvestment' },
         { value: '4-7%', label: 'Rental\nYield' },
@@ -320,7 +371,7 @@ const residencePrograms = [
       ],
     },
     legalBasis:
-      "Greece's Golden Visa Programme is governed by Law 4251/2014 and subsequent amendments.",
+      "Greece's Golden Visa Programme is governed by Law 4251/2014 and subsequent amendments, administered by the Ministry of Migration and Asylum. RK Global Immigration ensures full compliance with applicable regulatory requirements in the UAE and Greece, with dedicated coordination with licensed Greek legal professionals throughout every client application.",
     faqs: makeFaqs(
       [
         'What is the minimum investment for the Greece Golden Visa?',
@@ -354,9 +405,9 @@ const residencePrograms = [
       title: 'About Hungary',
       subtitle: "Central Europe's Rising Investment Destination",
       description:
-        'Hungary is an EU and Schengen member offering a strategic location, competitive cost base, and an increasingly attractive framework for international investors.',
+        "Hungary is a central European EU and Schengen member state with a rich cultural heritage, a rapidly modernising economy, and a low cost of living relative to Western Europe. Budapest, its capital, consistently ranks among Europe's most beautiful and liveable cities. Hungary's favourable tax regime and strategic location at the crossroads of East and West make it an increasingly popular destination for international investors.",
       secondaryDescription:
-        'The Guest Investor Visa launched in 2024 and offers one of Europe\'s longest initial permit durations.',
+        "Hungary's Guest Investor Visa, launched in 2024, is one of the newest and most generous residency permits in Europe, offering a 10-year initial permit renewable for further 10-year periods.",
       highlights: [
         'EU and Schengen member state',
         '10-year renewable residency permit',
@@ -367,14 +418,39 @@ const residencePrograms = [
     benefitsIntro:
       'Invest to secure residency and access world-class living standards, business access, and global mobility.',
     benefits: [
-      { title: '10-Year Permit', description: 'One of the longest initial residency terms in Europe.' },
-      { title: 'Schengen Access', description: 'Travel flexibility across Schengen member states.' },
-      { title: 'Low Cost of Living', description: 'Attractive lifestyle and operating costs compared with many EU capitals.' },
-      { title: 'Fund-Based Investment', description: 'Approved fund route offers simplified management for investors.' },
-      { title: 'Family Inclusion', description: 'Spouse and dependent children can be included in one application.' },
-      { title: 'Long-Term Pathway', description: 'May lead to permanent residency and eventual citizenship subject to legal criteria.' },
+      {
+        title: '10-Year Permit',
+        description:
+          "Hungary's Guest Investor Visa offers a 10-year renewable permit, one of the longest initial residency terms in Europe.",
+      },
+      {
+        title: 'Schengen Access',
+        description:
+          'Full freedom of movement across all 27 Schengen countries for permit holders and included family members.',
+      },
+      {
+        title: 'Low Cost of Living',
+        description:
+          'Hungary offers a high quality of life at significantly lower costs than Western European capitals.',
+      },
+      {
+        title: 'Fund-Based Investment',
+        description:
+          'Investment is made into a government-approved real estate fund rather than a direct property purchase, simplifying asset management.',
+      },
+      {
+        title: 'Family Inclusion',
+        description:
+          "Spouse and dependent children may be included under the main applicant's Guest Investor Visa application.",
+      },
+      {
+        title: 'Path to Permanent Residency',
+        description:
+          'Long-term Guest Investor Visa holders may qualify for permanent residency and eventual citizenship after meeting residency requirements.',
+      },
     ],
-    processIntro: "This step-by-step process illustrates Hungary's Guest Investor Visa journey.",
+    processIntro:
+      "This step-by-step process illustrates Hungary's Guest Investor Visa application journey.",
     processSteps: [
       'Advisory Consultation',
       'Fund Selection',
@@ -384,14 +460,14 @@ const residencePrograms = [
       'Permit Issuance',
     ],
     requirementsSummary:
-      'Applicants must be non-EU nationals aged 18+, with clean criminal record and qualifying investment.',
+      'Applicants must be non-EU nationals aged 18 and above, hold a clean criminal record, and complete a qualifying investment in an approved Hungarian real estate fund.',
     requirementsChecklist: [
       'Clean criminal record required',
       'Valid health insurance coverage',
       'Proof of qualifying investment funds',
     ],
     qualificationDescription:
-      "Investors qualify through Hungary's approved Guest Investor Visa routes.",
+      "Investors qualify for Hungary's Guest Investor Visa through one of three approved investment routes:",
     qualificationOptions: [
       'Real estate fund contribution of EUR 250,000+',
       'Residential property purchase of EUR 500,000+',
@@ -399,7 +475,8 @@ const residencePrograms = [
     ],
     investment: {
       title: 'Investment Options for Hungary Guest Investor Visa',
-      description: 'Fund-based and alternative routes are available depending on strategy and risk profile.',
+      description:
+        "Hungary's fund-based investment route simplifies asset management while providing access to a diversified real estate portfolio underpinned by the growing Budapest property market.",
       stats: [
         { value: '250k', label: 'Min. Fund\nInvestment' },
         { value: '10 Years', label: 'Initial\nPermit' },
@@ -407,7 +484,7 @@ const residencePrograms = [
       ],
     },
     legalBasis:
-      "Hungary's Guest Investor Visa is governed by Act XC of 2023 on the Entry and Residence of Third-Country Nationals.",
+      "Hungary's Guest Investor Visa is governed by Act XC of 2023 on the Entry and Residence of Third-Country Nationals, with investment requirements administered by the Hungarian National Bank and approved fund managers. RK Global Immigration provides full guidance and compliance management for all UAE and Hungarian regulatory requirements.",
     faqs: makeFaqs(
       [
         "When was Hungary's Guest Investor Visa launched?",
@@ -440,27 +517,52 @@ const residencePrograms = [
       title: 'About Latvia',
       subtitle: 'The Baltic Gateway to Europe',
       description:
-        'Latvia is an EU and Schengen member with a growing digital economy and one of Europe\'s most accessible residency entry points for investors.',
+        "Latvia is a Baltic EU and Schengen member state located on the eastern coast of the Baltic Sea. Known for its medieval old towns, pristine forests, and rapidly growing digital economy, Latvia is an affordable and increasingly attractive European residency destination. Riga, its capital, is one of the largest cities in the Baltic region and a growing hub for technology, finance, and international business.",
       secondaryDescription:
-        'Its programme provides affordable access to Schengen mobility and a renewable long-term residency option.',
+        "Latvia's residency by investment programme offers one of the lowest qualifying thresholds of any EU and Schengen residency programme, making it accessible to a wider range of qualified investors.",
       highlights: [
         'EU and Schengen member since 2004',
         "One of Europe's lowest RBI entry points",
-        'Growing digital and tech economy',
+        'Rapidly growing digital and tech economy',
         'Freedom of movement across Schengen Area',
       ],
     },
     benefitsIntro:
       'Invest to secure residency and access world-class living standards, business access, and global mobility.',
     benefits: [
-      { title: 'Low Entry Threshold', description: 'Competitive investment floor compared with other EU residency pathways.' },
-      { title: 'Schengen Access', description: 'Freedom of movement across Schengen countries for permit holders.' },
-      { title: 'Fast Processing', description: 'Applications are commonly processed in one to three months.' },
-      { title: 'EU Member Stability', description: 'Residency in a full EU state supports legal certainty and market access.' },
-      { title: 'Affordable Living', description: 'Lower cost of living than many Western European jurisdictions.' },
-      { title: 'Renewable Permit', description: 'Permit can be renewed for long-term residency continuity.' },
+      {
+        title: 'Lowest EU RBI Entry',
+        description:
+          "At EUR 50,000, Latvia offers the lowest qualifying investment of any EU and Schengen residency programme in Europe.",
+      },
+      {
+        title: 'Schengen Area Access',
+        description:
+          'Full freedom of movement across all 27 Schengen countries for permit holders and their dependents.',
+      },
+      {
+        title: 'Fast Processing',
+        description:
+          "Latvia's residency applications are typically processed within one to three months of complete submission.",
+      },
+      {
+        title: 'EU Member Benefits',
+        description:
+          'Residency in a full EU member state provides legal certainty, institutional stability, and European market access.',
+      },
+      {
+        title: 'Affordable Cost of Living',
+        description:
+          'Latvia offers one of the lowest costs of living in the EU, with Riga providing a high quality of life at accessible prices.',
+      },
+      {
+        title: 'Renewable Permit',
+        description:
+          'Latvia residency permits are renewable, providing a long-term European residency solution for qualifying investors.',
+      },
     ],
-    processIntro: "This step-by-step process illustrates Latvia's residency application journey.",
+    processIntro:
+      "This step-by-step process illustrates Latvia's residency by investment application journey.",
     processSteps: [
       'Advisory Consultation',
       'Investment Selection',
@@ -470,14 +572,14 @@ const residencePrograms = [
       'Permit Issuance',
     ],
     requirementsSummary:
-      'Applicants must be non-EU nationals aged 18+, with clean record and qualifying investment.',
+      'Applicants must be non-EU nationals aged 18 and above, hold a clean criminal record, and complete a qualifying investment in an approved Latvian investment category.',
     requirementsChecklist: [
       'Clean criminal record required',
       'Valid health insurance coverage',
       'Proof of qualifying investment funds',
     ],
     qualificationDescription:
-      'Investors may qualify through approved Latvian investment categories.',
+      'Investors may qualify for Latvian residency through one of the following approved investment routes:',
     qualificationOptions: [
       'Subordinated capital contribution EUR 50,000+',
       'Real estate investment in eligible regions',
@@ -485,15 +587,16 @@ const residencePrograms = [
     ],
     investment: {
       title: 'Investment Options for Latvia Residency',
-      description: 'Latvia offers multiple affordable routes to EU/Schengen residency.',
+      description:
+        "Latvia's programme offers multiple investment routes at accessible thresholds, making it Europe's most affordable EU and Schengen residency by investment pathway.",
       stats: [
         { value: '50k', label: 'Min.\nInvestment' },
-        { value: '1-3', label: 'Months\nProcessing' },
+        { value: '1–3', label: 'Months\nProcessing' },
         { value: 'EU', label: 'Schengen\nAccess' },
       ],
     },
     legalBasis:
-      "Latvia's residency programme is governed by the Immigration Law of Latvia and administered by the Office of Citizenship and Migration Affairs.",
+      "Latvia's residency by investment programme is governed by the Immigration Law of Latvia and administered by the Office of Citizenship and Migration Affairs. RK Global Immigration ensures full compliance with applicable regulatory requirements across the UAE and Latvia for every client application.",
     faqs: makeFaqs(
       [
         'What is the minimum investment for Latvia residency?',
@@ -527,9 +630,9 @@ const residencePrograms = [
       title: 'About Malta',
       subtitle: "Europe's Mediterranean Island Nation",
       description:
-        'Malta is an EU and Schengen state with English-speaking business culture, political stability, and strong quality-of-life fundamentals.',
+        "Malta is a small EU and Schengen island nation in the central Mediterranean Sea, renowned for its exceptional quality of life, English-speaking environment, stable political system, and business-friendly regulatory framework. With a population of 500,000 and a thriving financial services, iGaming, and technology sector, Malta punches significantly above its size as a global business hub.",
       secondaryDescription:
-        'The Malta Permanent Residence Programme offers lifetime status when qualifying requirements are maintained.',
+        "Malta's permanent residency permit is issued for life with no renewal requirements, provided the qualifying investment is maintained, making it one of Europe's most stable long-term residency solutions.",
       highlights: [
         'EU and Schengen member state',
         'English-speaking business environment',
@@ -540,14 +643,39 @@ const residencePrograms = [
     benefitsIntro:
       'Invest to secure residency and access world-class living standards, business access, and global mobility.',
     benefits: [
-      { title: 'Lifetime PR Status', description: 'Permanent residency is issued for life under programme conditions.' },
-      { title: 'Schengen Area Access', description: 'Freedom of movement across Schengen countries for permit holders.' },
-      { title: 'English-Speaking EU Nation', description: 'Simple integration for international business and families.' },
-      { title: 'Tax Planning Benefits', description: 'Malta offers a recognised framework for internationally mobile residents.' },
-      { title: 'Broad Family Coverage', description: 'Spouse, children, parents, and grandparents may be included.' },
-      { title: 'Professional Processing', description: 'Applications are handled through a structured due diligence framework.' },
+      {
+        title: 'Lifetime PR Status',
+        description:
+          "Malta's permanent residency is issued for life with no renewal, one of the most stable EU residency outcomes available.",
+      },
+      {
+        title: 'Schengen Area Access',
+        description:
+          'Full freedom of movement across all 27 Schengen countries for permit holders and included dependents.',
+      },
+      {
+        title: 'English-Speaking EU Nation',
+        description:
+          'Malta is one of only two official English-speaking EU member states, facilitating seamless business and daily life.',
+      },
+      {
+        title: 'Favourable Tax Regime',
+        description:
+          "Malta's non-domiciled resident tax framework and flat-rate minimum tax offer significant advantages for internationally mobile investors.",
+      },
+      {
+        title: 'Broad Family Coverage',
+        description:
+          'Spouse, unmarried children under 29, financially dependent parents, and grandparents may all be included.',
+      },
+      {
+        title: 'Fast Processing',
+        description:
+          "Malta's MPRP is processed within four to six months by the Residency Malta Agency, one of Europe's most professional programme administrators.",
+      },
     ],
-    processIntro: "This step-by-step process illustrates Malta's permanent residency application journey.",
+    processIntro:
+      'This step-by-step process illustrates the Malta Permanent Residence Programme application journey.',
     processSteps: [
       'Advisory Consultation',
       'Eligibility Assessment',
@@ -557,14 +685,14 @@ const residencePrograms = [
       'Permit Issuance',
     ],
     requirementsSummary:
-      'Applicants must be non-EU nationals aged 18+ with clean record and complete contribution, property, and insurance obligations.',
+      'Applicants must be non-EU nationals aged 18 and above, hold a clean criminal record, and complete the required contribution, property, and insurance obligations.',
     requirementsChecklist: [
       'Clean criminal record required',
       'Health insurance covering EUR 30,000',
       'Minimum annual income of EUR 30,000 from abroad',
     ],
     qualificationDescription:
-      'Malta requires a structured combination of contribution, property commitment, and donation.',
+      'The Malta Permanent Residence Programme requires a combination of a government contribution, property commitment, and a donation:',
     qualificationOptions: [
       'Government contribution of EUR 58,000 (renting) or EUR 28,000 (buying)',
       'Property lease EUR 10,000/yr or purchase EUR 300,000+',
@@ -573,7 +701,7 @@ const residencePrograms = [
     investment: {
       title: 'Investment Structure for Malta Permanent Residency',
       description:
-        'The programme combines government and property elements with a total outlay near EUR 150,000 depending on route.',
+        "Malta's programme combines a government contribution with a property requirement. The total minimum qualifying outlay is approximately EUR 150,000, depending on the property route selected.",
       stats: [
         { value: '150k', label: 'Min. Total\nOutlay' },
         { value: '4-6', label: 'Months\nProcessing' },
@@ -581,7 +709,7 @@ const residencePrograms = [
       ],
     },
     legalBasis:
-      'The Malta Permanent Residence Programme is governed by LN 121 of 2021 and administered by the Residency Malta Agency.',
+      'The Malta Permanent Residence Programme is governed by the Malta Permanent Residence Programme Regulations (LN 121 of 2021), administered by the Residency Malta Agency. RK Global Immigration provides full legal and compliance support for all UAE and Maltese regulatory requirements, ensuring every application meets the highest documentary standards.',
     faqs: makeFaqs(
       [
         'What is the minimum investment for Malta permanent residency?',
@@ -615,27 +743,52 @@ const residencePrograms = [
       title: 'About Panama',
       subtitle: 'The Crossroads of the Americas',
       description:
-        'Panama combines a US dollar economy, territorial taxation, and strategic positioning in the Americas, making it a practical residency destination for investors and retirees.',
+        "Panama is a central American republic at the crossroads of North and South America, home to one of the world's most strategic waterways and a thriving international financial centre. With a stable economy anchored to the US dollar, a territorial tax system that exempts foreign income, and consistent GDP growth, Panama is Latin America's most investor-friendly jurisdiction.",
       secondaryDescription:
-        'The Pensionado framework is one of the most recognised retiree-focused residency offerings globally.',
+        "Panama's Pensionado programme is among the world's most generous retiree residency schemes, offering significant discounts across healthcare, entertainment, transport, and utilities.",
       highlights: [
         'US dollar-based economy',
-        'Territorial tax with no tax on foreign income',
-        'Recognised Pensionado retiree programme',
+        'Territorial tax, no tax on foreign income',
+        'World-renowned Pensionado retiree programme',
         'No minimum stay requirement',
       ],
     },
     benefitsIntro:
       'Invest to secure residency and access world-class living standards, business access, and global mobility.',
     benefits: [
-      { title: 'Territorial Tax System', description: 'Foreign-sourced income is outside local taxation in Panama.' },
-      { title: 'USD Economy', description: 'Currency stability for international investors and retirees.' },
-      { title: 'No Minimum Stay', description: 'Programmes support flexible physical presence requirements.' },
-      { title: 'Pensionado Benefits', description: 'Attractive retiree discounts across services and lifestyle spending.' },
-      { title: 'Real Estate Opportunity', description: 'Diverse property market across Panama City and resort locations.' },
-      { title: 'Path to Citizenship', description: 'Eligible residents may apply for citizenship after statutory duration.' },
+      {
+        title: 'Territorial Tax System',
+        description:
+          'Panama taxes only locally sourced income. Foreign income, capital gains, and worldwide assets are entirely exempt.',
+      },
+      {
+        title: 'USD Economy',
+        description:
+          "Panama's US dollar-denominated economy provides currency stability and eliminates foreign exchange risk for investors.",
+      },
+      {
+        title: 'No Minimum Stay',
+        description:
+          "Panama's investor residency programmes do not require physical presence, enabling a fully flexible lifestyle.",
+      },
+      {
+        title: 'Pensionado Benefits',
+        description:
+          'Retirees accessing the Pensionado programme receive substantial discounts across healthcare, travel, and lifestyle services.',
+      },
+      {
+        title: 'Real Estate Investment',
+        description:
+          "Panama's property market offers strong investment fundamentals in Panama City and coastal resort areas.",
+      },
+      {
+        title: 'Path to Citizenship',
+        description:
+          'After five years of residency, qualifying investors may apply for Panamanian citizenship and a passport.',
+      },
     ],
-    processIntro: "This step-by-step process illustrates Panama's residency application journey.",
+    processIntro:
+      "This step-by-step process illustrates Panama's residency by investment application journey.",
     processSteps: [
       'Advisory Consultation',
       'Investment Selection',
@@ -645,14 +798,14 @@ const residencePrograms = [
       'Permit Issuance',
     ],
     requirementsSummary:
-      'Applicants must be aged 18+, hold clean criminal record, and complete qualifying investment route requirements.',
+      "Applicants must be aged 18 and above, hold a clean criminal record, and complete a qualifying investment under one of Panama's approved residency investment categories.",
     requirementsChecklist: [
       'Clean criminal record required',
       'Proof of qualifying investment funds',
       'Valid passport from country of citizenship',
     ],
     qualificationDescription:
-      'Investors may qualify through multiple approved Panamanian residency pathways.',
+      "Investors may qualify for Panama residency through one of the following approved pathways:",
     qualificationOptions: [
       'Qualifying real estate investment USD 300,000+',
       'Reforestation investment USD 100,000+',
@@ -660,7 +813,8 @@ const residencePrograms = [
     ],
     investment: {
       title: 'Real Estate Investment Options for Panama Residency',
-      description: 'Panama offers lifestyle and yield-oriented options in key residential and coastal zones.',
+      description:
+        "Panama City's modern skyline, island resorts, and Pacific coast developments offer a diverse range of qualifying real estate investments across lifestyle and income-generating categories.",
       stats: [
         { value: '300k', label: 'Min. RE\nInvestment' },
         { value: '4-6%', label: 'Rental\nYield' },
@@ -668,7 +822,7 @@ const residencePrograms = [
       ],
     },
     legalBasis:
-      "Panama's programmes are governed by Executive Decree 320 of 2008 and subsequent amendments.",
+      "Panama's residency by investment programmes are governed by Executive Decree 320 of 2008 and subsequent amendments, administered by the National Immigration Service. RK Global Immigration ensures full compliance with all applicable UAE and Panamanian regulatory requirements for every client engagement.",
     faqs: makeFaqs(
       [
         'What is the minimum investment for Panama residency?',
@@ -691,7 +845,7 @@ const residencePrograms = [
     categoryLabel: 'Residency by Investment',
     heroTitle: 'PORTUGAL GOLDEN VISA PROGRAM',
     heroDescription:
-      'Offering permanent residency and a pathway to EU citizenship from EUR 250,000 with high flexibility.',
+      "Europe's most popular Golden Visa, offering permanent residency and a pathway to EU citizenship from EUR 250,000.",
     stats: [
       { value: 'EUR 250,000', label: 'Min.\nInvestment' },
       { value: '6-8 Months', label: 'Processing\nTime' },
@@ -702,27 +856,52 @@ const residencePrograms = [
       title: 'About Portugal',
       subtitle: "Europe's Atlantic Gateway",
       description:
-        'Portugal combines quality of life, Schengen access, and one of the most respected residency pathways in Europe for globally mobile families and investors.',
+        "Portugal is a western European EU member state situated at the Atlantic edge of the Iberian Peninsula. Consistently ranked among Europe's most liveable countries, Portugal offers a warm climate, world-class cuisine, low cost of living, and a welcoming, internationally-oriented culture. Its Golden Visa programme has attracted billions in foreign investment since its launch in 2012.",
       secondaryDescription:
-        'Its Golden Visa remains attractive for long-term planning due to low stay requirements and a clear citizenship pathway.',
+        "Portugal's NHR (Non-Habitual Resident) tax regime provides a ten-year tax advantage for qualifying new residents, making it one of Europe's most fiscally attractive residency destinations.",
       highlights: [
-        'EU member with path to citizenship in 5 years',
+        'EU member, pathway to EU citizenship in 5 years',
         'Only 7 days minimum stay per year',
-        'NHR tax framework (subject to eligibility)',
+        'NHR tax regime for 10 years',
         'Schengen Area access',
       ],
     },
     benefitsIntro:
       'Invest to secure residency and access world-class living standards, business access, and global mobility.',
     benefits: [
-      { title: 'EU Citizenship Pathway', description: 'Eligible residents may apply for Portuguese and EU citizenship after five years.' },
-      { title: 'Minimal Stay Requirement', description: 'Only seven days per year is typically required to maintain permit status.' },
-      { title: 'Schengen Access', description: 'Travel flexibility across Schengen countries for holders and qualifying family.' },
-      { title: 'Tax Planning Potential', description: 'Portugal has historically offered attractive resident tax frameworks.' },
-      { title: 'Family Inclusion', description: 'Spouse, children, and qualifying dependents can be included.' },
-      { title: 'Stable Long-Term Route', description: 'A structured legal path to long-term European status.' },
+      {
+        title: 'EU Citizenship Pathway',
+        description:
+          'After five years of Golden Visa residency, applicants may apply for full Portuguese and EU citizenship.',
+      },
+      {
+        title: 'Minimal Stay Required',
+        description:
+          'Just seven days per year of physical presence is required to maintain the Golden Visa, providing maximum flexibility.',
+      },
+      {
+        title: 'Schengen Area Access',
+        description:
+          'Freedom of movement across all 27 Schengen countries for Golden Visa holders and included family members.',
+      },
+      {
+        title: 'NHR Tax Advantage',
+        description:
+          'Non-Habitual Resident status provides a 10-year tax benefit for qualifying new residents on eligible income streams.',
+      },
+      {
+        title: 'Full Family Inclusion',
+        description:
+          'Spouse, children under 26, dependent parents, and siblings under 18 may all be included under one application.',
+      },
+      {
+        title: 'Strong Property Market',
+        description:
+          'Lisbon, Porto, and the Algarve continue to offer strong investment fundamentals and long-term capital appreciation.',
+      },
     ],
-    processIntro: "This step-by-step process illustrates Portugal's Golden Visa application journey.",
+    processIntro:
+      "This step-by-step process illustrates Portugal's Golden Visa residency application journey.",
     processSteps: [
       'Advisory Consultation',
       'Investment Selection',
@@ -732,14 +911,14 @@ const residencePrograms = [
       'Permit Issuance',
     ],
     requirementsSummary:
-      'Applicants must be non-EU nationals aged 18+, with clean record and qualifying investment route.',
+      'Applicants must be non-EU nationals aged 18 and above, with a clean criminal record, and complete a qualifying investment under one of the approved Golden Visa categories.',
     requirementsChecklist: [
       'Clean criminal record required',
       'Valid NIF (Portuguese tax number)',
       'Proof of qualifying investment funds',
     ],
     qualificationDescription:
-      "Investors may qualify through Portugal's approved Golden Visa categories.",
+      "Investors may qualify for Portugal's Golden Visa through the following approved investment routes:",
     qualificationOptions: [
       'Investment fund contribution EUR 500,000+',
       'Job creation (10+ full-time jobs)',
@@ -748,7 +927,7 @@ const residencePrograms = [
     investment: {
       title: 'Investment Options for Portugal Golden Visa',
       description:
-        'Current eligible routes focus on funds, capital transfer, and job-creation structures.',
+        "Following Portugal's 2023 Golden Visa reform, eligible investment routes now focus on fund contributions, capital transfers, and job creation rather than direct real estate purchases.",
       stats: [
         { value: '500k', label: 'Min. Fund\nInvestment' },
         { value: '7 Days', label: 'Min. Annual\nStay' },
@@ -756,7 +935,7 @@ const residencePrograms = [
       ],
     },
     legalBasis:
-      "Portugal's Golden Visa is governed by Law 23/2007 and administered by AIMA.",
+      "Portugal's Golden Visa Programme is governed by Law 23/2007 and subsequent amendments, administered by AIMA (Agency for Integration, Migration and Asylum). RK Global Immigration ensures full compliance with all applicable UAE and Portuguese regulatory requirements, coordinating with authorised Portuguese legal professionals for every client engagement.",
     faqs: makeFaqs(
       [
         "What investment routes are available for Portugal's Golden Visa?",
@@ -790,27 +969,52 @@ const residencePrograms = [
       title: 'About Switzerland',
       subtitle: 'Prestige, Privacy, and Stability',
       description:
-        'Switzerland is known for neutrality, legal certainty, privacy, and exceptional quality of life, making it a premium long-term residency destination.',
+        "Switzerland is a landlocked central European nation renowned globally for its political neutrality, banking privacy, exceptional quality of life, and extraordinary natural landscape. Home to international institutions, world-class medical facilities, and elite educational institutions, Switzerland consistently ranks at the top of global quality of life and competitiveness indices.",
       secondaryDescription:
-        'Its lump-sum taxation model is structured around annual tax commitments rather than one-time investment.',
+        "Switzerland is not an EU member, but maintains bilateral agreements with the EU and the Schengen Area, providing residents with considerable mobility and access across Europe.",
       highlights: [
-        'Highly stable political and financial system',
+        "World's most stable political and financial system",
         'Lump-sum taxation for qualifying foreign residents',
-        'Schengen mobility via bilateral agreements',
-        'Top-ranked healthcare and education',
+        'Schengen Area access via bilateral agreements',
+        'Top-ranked healthcare, education, and infrastructure',
       ],
     },
     benefitsIntro:
       'Invest to secure residency and access world-class living standards, business access, and global mobility.',
     benefits: [
-      { title: 'Lump-Sum Taxation', description: 'Fixed annual tax arrangement based on living expense framework.' },
-      { title: 'Privacy and Asset Protection', description: 'Strong legal and financial privacy tradition.' },
-      { title: 'European Mobility', description: 'Extensive travel access through Swiss bilateral structures.' },
-      { title: 'Political Neutrality', description: 'Long-term institutional and governance stability.' },
-      { title: 'Elite Education', description: 'Access to globally respected academic institutions.' },
-      { title: 'Healthcare Excellence', description: 'One of the strongest healthcare systems worldwide.' },
+      {
+        title: 'Lump-Sum Taxation',
+        description:
+          "Switzerland's forfait fiscal regime allows qualifying residents to pay a fixed annual tax based on living expenses, not worldwide income.",
+      },
+      {
+        title: 'World-Class Privacy',
+        description:
+          "Switzerland's legal framework offers exceptional financial privacy and asset protection for internationally mobile residents.",
+      },
+      {
+        title: 'Schengen Mobility',
+        description:
+          "Switzerland's bilateral agreements provide residents with freedom of movement across Schengen Europe.",
+      },
+      {
+        title: 'Political Neutrality',
+        description:
+          "Switzerland's consistent political neutrality and institutional stability make it one of the world's most secure long-term residency bases.",
+      },
+      {
+        title: 'Elite Education',
+        description:
+          'Home to ETH Zurich, EPFL, and a network of world-ranked schools and universities for residents and their families.',
+      },
+      {
+        title: 'Healthcare Excellence',
+        description:
+          "Switzerland's healthcare system is consistently ranked among the world's finest, accessible to all registered residents.",
+      },
     ],
-    processIntro: "This step-by-step process illustrates Switzerland's lump-sum residency journey.",
+    processIntro:
+      "This step-by-step process illustrates Switzerland's lump-sum residency application journey.",
     processSteps: [
       'Advisory Consultation',
       'Canton Selection',
@@ -820,22 +1024,23 @@ const residencePrograms = [
       'Permit Issuance',
     ],
     requirementsSummary:
-      'Applicants must be non-Swiss non-EU nationals, non-gainfully employed in Switzerland, and agree to cantonal lump-sum tax terms.',
+      'Applicants must be non-Swiss non-EU nationals who are not gainfully employed in Switzerland, and must agree to a lump-sum tax arrangement with their chosen canton.',
     requirementsChecklist: [
       'No employment in Switzerland permitted',
-      'Minimum annual lump-sum tax with canton',
+      'Minimum annual lump-sum tax negotiated with canton',
       'Proof of financial means to support residency',
     ],
     qualificationDescription:
-      'Qualification depends on negotiated annual tax agreement with the selected canton.',
+      'Qualifying for Swiss lump-sum residency involves negotiating a fixed annual tax arrangement with the relevant cantonal tax authority:',
     qualificationOptions: [
       'Annual lump-sum tax of CHF 250,000+ (federal minimum)',
-      'Cantonal thresholds vary and may be higher',
+      'Cantonal requirements vary, typically higher in premium cantons',
       'No Swiss employment or business income permitted',
     ],
     investment: {
-      title: 'Swiss Lump-Sum Tax Residency Structure',
-      description: 'Swiss residency is based on recurring tax commitment rather than one-time capital placement.',
+      title: 'Swiss Lump-Sum Tax Residency Investment Structure',
+      description:
+        "Unlike other residency programmes, Switzerland's lump-sum regime involves an ongoing annual tax commitment rather than a one-time capital investment. Premium cantons such as Geneva and Zurich require significantly higher annual amounts.",
       stats: [
         { value: '250k', label: 'Min. Annual\nTax (CHF)' },
         { value: '3-6', label: 'Months\nProcessing' },
@@ -843,7 +1048,7 @@ const residencePrograms = [
       ],
     },
     legalBasis:
-      "Switzerland's lump-sum taxation residency is governed by federal tax harmonisation rules and cantonal tax laws.",
+      "Switzerland's lump-sum taxation residency is governed by the Federal Tax Harmonisation Act and individual cantonal tax laws. Arrangements are negotiated with and administered by the relevant cantonal tax authority. RK Global Immigration provides full advisory services in compliance with applicable UAE and Swiss regulatory requirements.",
     faqs: makeFaqs(
       [
         "What is Switzerland's lump-sum taxation regime?",
@@ -877,27 +1082,52 @@ const residencePrograms = [
       title: 'About Thailand',
       subtitle: 'The Land of Smiles',
       description:
-        'Thailand is a major Southeast Asian destination known for lifestyle quality, healthcare standards, and cost efficiency for globally mobile residents.',
+        "Thailand is a Southeast Asian nation of 70 million people, celebrated globally for its exceptional cuisine, cultural richness, warm hospitality, world-class medical facilities, and consistently low cost of living. Bangkok consistently ranks among Asia's top destinations for expatriates, digital nomads, and retirees, offering a metropolitan lifestyle at a fraction of Western costs.",
       secondaryDescription:
-        'The LTR Visa was launched to attract investors, remote workers, and retirees through long-term stability and incentives.',
+        "Thailand's LTR Visa, launched in 2022, is specifically designed to attract wealthy global citizens, retirees, and remote workers by offering long-term stability and meaningful tax advantages.",
       highlights: [
         '10-year renewable residency permit',
-        'Tax exemption on qualifying foreign-sourced income',
-        'Strong medical and wellness infrastructure',
-        'Low cost of living with high lifestyle quality',
+        'Tax exemption on foreign-sourced income',
+        'World-class medical facilities and wellness',
+        'Low cost of living with high quality of life',
       ],
     },
     benefitsIntro:
       'Invest to secure residency and access world-class living standards, business access, and global mobility.',
     benefits: [
-      { title: '10-Year Permit', description: 'Long-duration permit with renewal framework for qualified applicants.' },
-      { title: 'Tax Incentive Structure', description: 'Potential exemption treatment on eligible foreign-sourced income.' },
-      { title: 'Healthcare Quality', description: 'Internationally recognised private healthcare network.' },
-      { title: 'Cost Efficiency', description: 'High lifestyle value relative to many global cities.' },
-      { title: 'Family Inclusion', description: 'Spouse and qualifying dependents can be included.' },
-      { title: 'Fast Processing', description: 'LTR applications are generally processed quickly through BOI channels.' },
+      {
+        title: '10-Year Renewable Permit',
+        description:
+          "Thailand's LTR Visa is issued for ten years and renewable, one of Asia's most stable long-term residency solutions.",
+      },
+      {
+        title: 'Foreign Income Tax Exemption',
+        description:
+          'LTR Visa holders are exempt from Thai personal income tax on foreign-sourced income remitted to Thailand.',
+      },
+      {
+        title: 'World-Class Healthcare',
+        description:
+          "Thailand's private medical facilities are internationally accredited and consistently ranked among Asia's finest.",
+      },
+      {
+        title: 'Low Cost of Living',
+        description:
+          'Thailand offers an exceptional quality of life at a significantly lower cost than comparable Western or Gulf destinations.',
+      },
+      {
+        title: 'Family Inclusion',
+        description:
+          'A spouse and up to four dependents may be included under the main LTR Visa holder\'s application.',
+      },
+      {
+        title: 'Fast Processing',
+        description:
+          'LTR Visa applications are typically processed within one to three months through the Board of Investment.',
+      },
     ],
-    processIntro: "This step-by-step process illustrates Thailand's LTR Visa application journey.",
+    processIntro:
+      "This step-by-step process illustrates Thailand's Long-Term Resident Visa application journey.",
     processSteps: [
       'Advisory Consultation',
       'Eligibility Review',
@@ -907,23 +1137,23 @@ const residencePrograms = [
       'Visa Issuance',
     ],
     requirementsSummary:
-      'Applicants must meet income, asset, or investment thresholds depending on selected LTR category.',
+      'Applicants must meet minimum income, investment, or asset thresholds depending on the LTR Visa category applied for. Four distinct categories are available.',
     requirementsChecklist: [
       'Clean criminal record required',
       'Valid health insurance (USD 40,000 coverage min.)',
       'Proof of qualifying income or investment',
     ],
     qualificationDescription:
-      'Thailand offers four LTR categories with separate eligibility thresholds.',
+      "Thailand's LTR Visa has four qualifying categories, each with distinct requirements:",
     qualificationOptions: [
-      'Wealthy Global Citizen route',
-      'Wealthy Pensioner route',
-      'Remote Worker and Specialist routes',
+      'Wealthy Global Citizen: USD 1M assets + USD 250K investment',
+      'Wealthy Pensioner: USD 80K annual income or USD 250K deposit',
+      'Remote Worker: USD 80K annual income from abroad',
     ],
     investment: {
       title: 'Investment Options for Thailand LTR Visa',
       description:
-        'Qualifying investment may include government bonds, BOI-promoted companies, or eligible real estate.',
+        "Thailand's Wealthy Global Citizen LTR route requires a qualifying investment in Thai government bonds, BOI-promoted companies, or Thai real estate, providing both residency and investment returns.",
       stats: [
         { value: '250k', label: 'Min.\nInvestment' },
         { value: '10 Years', label: 'Permit\nDuration' },
@@ -931,7 +1161,7 @@ const residencePrograms = [
       ],
     },
     legalBasis:
-      "Thailand's LTR Visa is governed by the Royal Decree on Long-Term Resident Visa (2022) and administered by the BOI.",
+      "Thailand's Long-Term Resident Visa programme is governed by the Royal Decree on Long-Term Resident Visa (2022) and administered by the Board of Investment of Thailand. RK Global Immigration provides full advisory and compliance services for all UAE and Thai regulatory requirements applicable to each LTR Visa category.",
     faqs: makeFaqs(
       [
         "What is Thailand's Long-Term Resident Visa?",
@@ -965,9 +1195,9 @@ const residencePrograms = [
       title: 'About the UAE',
       subtitle: "The World's Premier Business Hub",
       description:
-        'The UAE is a globally connected, tax-efficient jurisdiction with world-class infrastructure and strong appeal for investors and entrepreneurs.',
+        "The United Arab Emirates is a federation of seven emirates situated at the crossroads of Europe, Asia, and Africa. With a zero personal income tax environment, world-class infrastructure, a thriving international business community, and an unrivalled lifestyle offering, the UAE is consistently ranked among the world's top destinations for high-net-worth individuals, entrepreneurs, and global families.",
       secondaryDescription:
-        'As a Dubai-based advisory, RK Global offers direct local expertise across Golden Visa categories and emirates.',
+        "As the home of RK Global Immigration, we offer unmatched local expertise on the UAE Golden Visa, supporting clients across every emirate and every qualifying investor category.",
       highlights: [
         'Zero personal income tax',
         '10-year renewable residency permit',
@@ -978,14 +1208,39 @@ const residencePrograms = [
     benefitsIntro:
       'Invest to secure residency and access world-class living standards, business access, and global mobility.',
     benefits: [
-      { title: '10-Year Permit', description: 'Long-term renewable residency with high planning stability.' },
-      { title: 'Zero Income Tax', description: 'No personal income tax, capital gains tax, or wealth tax.' },
-      { title: 'Global Connectivity', description: 'Top-tier international aviation connectivity via UAE hubs.' },
-      { title: 'Business Access', description: 'Free zones and business-friendly regulation for international operators.' },
-      { title: 'Family Coverage', description: 'Spouse, children, and domestic staff sponsorship pathways available.' },
-      { title: 'Local Advisory Strength', description: 'On-ground UAE processing expertise from RK Global team.' },
+      {
+        title: '10-Year Renewable Permit',
+        description:
+          'The UAE Golden Visa is issued for ten years and renewable indefinitely, providing the most stable long-term residency in the Gulf.',
+      },
+      {
+        title: 'Zero Income Tax',
+        description:
+          'The UAE imposes no personal income tax, capital gains tax, or wealth tax, delivering exceptional financial advantages.',
+      },
+      {
+        title: 'Global Connectivity',
+        description:
+          'Dubai and Abu Dhabi offer among the world\'s best-connected airports, with direct routes to every major global city.',
+      },
+      {
+        title: 'Business Hub Access',
+        description:
+          'Free zones, business-friendly regulations, and a growing startup ecosystem make the UAE a premier global business base.',
+      },
+      {
+        title: 'Full Family Coverage',
+        description:
+          "Spouse, children, and domestic staff may be sponsored under the Golden Visa holder's permit at no additional investment.",
+      },
+      {
+        title: 'RK Global Expertise',
+        description:
+          'As a Dubai-based firm, RK Global Immigration provides unmatched on-the-ground UAE Golden Visa expertise and advisory support.',
+      },
     ],
-    processIntro: "This step-by-step process illustrates the UAE Golden Visa journey.",
+    processIntro:
+      'This step-by-step process illustrates the UAE Golden Visa residency application journey.',
     processSteps: [
       'Initial Consultation',
       'Eligibility Assessment',
@@ -995,14 +1250,14 @@ const residencePrograms = [
       'Visa Stamping',
     ],
     requirementsSummary:
-      'Applicants must qualify through approved property, business, or professional categories under Golden Visa regulations.',
+      'UAE Golden Visa applicants must meet one of several qualifying criteria, including property ownership, business investment, or professional classification under approved government categories.',
     requirementsChecklist: [
       'Property valued at AED 2,000,000+ (or mortgage equivalent)',
-      'Clean criminal record and medical fitness',
+      'Clean criminal record and valid medical fitness',
       'Valid passport and proof of qualifying status',
     ],
     qualificationDescription:
-      'The UAE Golden Visa is available through multiple investor and professional pathways.',
+      'The UAE Golden Visa is available through multiple qualifying investor and professional categories:',
     qualificationOptions: [
       'Real estate ownership AED 2,000,000+',
       'Business investor or entrepreneur route',
@@ -1011,7 +1266,7 @@ const residencePrograms = [
     investment: {
       title: 'Real Estate and Investment Options for UAE Golden Visa',
       description:
-        'Dubai and Abu Dhabi offer broad qualifying property options with strong rental fundamentals.',
+        "Dubai and Abu Dhabi's real estate markets offer a broad range of Golden Visa-qualifying properties across residential, commercial, and luxury categories with strong rental yields.",
       stats: [
         { value: '2M AED', label: 'Min. Property\nValue' },
         { value: '5-8%', label: 'Rental\nYield' },
@@ -1019,7 +1274,7 @@ const residencePrograms = [
       ],
     },
     legalBasis:
-      'The UAE Golden Visa is governed by Federal Decree-Law No. 6 of 2018 and administered by ICP.',
+      "The UAE Golden Visa is governed by Federal Decree-Law No. 6 of 2018 on Foreign Ownership of Investment, as amended, and administered by the Federal Authority for Identity, Citizenship, Customs and Port Security (ICP). RK Global Immigration operates from Dubai with full regulatory compliance and deep institutional knowledge of the UAE Golden Visa framework.",
     faqs: makeFaqs(
       [
         'What is the minimum investment for the UAE Golden Visa?',
@@ -1042,7 +1297,7 @@ const residencePrograms = [
     categoryLabel: 'Residency by Investment',
     heroTitle: 'UNITED KINGDOM INNOVATOR FOUNDER VISA PROGRAM',
     heroDescription:
-      "Build an innovative UK business and secure residency in one of the world's most influential economies.",
+      "Build an innovative UK business and secure residency in one of the world's most influential global economies.",
     stats: [
       { value: 'No Min.', label: 'Investment\nThreshold' },
       { value: '3-6 Months', label: 'Processing\nTime' },
@@ -1053,12 +1308,12 @@ const residencePrograms = [
       title: 'About the United Kingdom',
       subtitle: 'Global Finance, Law, and Culture',
       description:
-        'The UK remains a major global economy and centre for finance, education, and legal infrastructure, offering strong business and family outcomes for founders.',
+        "The United Kingdom is one of the world's five largest economies, a permanent UN Security Council member, and a global centre for finance, law, education, and culture. Home to world-ranked universities, the City of London financial district, and a legal system that underpins much of the world's commercial law, the UK remains one of the most strategically valuable residency destinations globally.",
       secondaryDescription:
-        'The Innovator Founder Visa supports entrepreneurs with endorsed innovative business models and a path to long-term settlement.',
+        "Following Brexit, UK residency no longer provides automatic EU access, but the British passport remains among the world's strongest, with visa-free access to 186+ countries.",
       highlights: [
         'Top 5 global economy',
-        'Path to ILR and citizenship',
+        'Path to ILR and citizenship in 3-5 years',
         'World-ranked universities and schools',
         'Global financial and legal hub',
       ],
@@ -1066,14 +1321,39 @@ const residencePrograms = [
     benefitsIntro:
       'Invest to secure residency and access world-class living standards, business access, and global mobility.',
     benefits: [
-      { title: 'No Minimum Investment', description: 'No fixed capital threshold; business quality is key.' },
-      { title: '3-Year Path to ILR', description: 'Eligible founders may apply for ILR after three years.' },
-      { title: 'Education Access', description: 'Strong academic ecosystem for residents and dependents.' },
-      { title: 'Global Business Hub', description: 'Access to UK and international markets from a mature ecosystem.' },
-      { title: 'Family Inclusion', description: 'Spouse and dependent children can be included.' },
-      { title: 'Path to Citizenship', description: 'Potential route to British citizenship subject to legal conditions.' },
+      {
+        title: 'No Minimum Investment',
+        description:
+          'The Innovator Founder Visa has no minimum capital requirement, making it accessible to a wide range of entrepreneurs.',
+      },
+      {
+        title: '3-Year Path to ILR',
+        description:
+          'Successful applicants may apply for Indefinite Leave to Remain after just three years, among the fastest routes in Europe.',
+      },
+      {
+        title: 'World-Ranked Education',
+        description:
+          "Access to the UK's outstanding university and school system for residents and their dependent children.",
+      },
+      {
+        title: 'Global Business Hub',
+        description:
+          "London's financial district and startup ecosystem provide unrivalled access to capital, talent, and international markets.",
+      },
+      {
+        title: 'Family Inclusion',
+        description:
+          'A spouse and dependent children may be included in the Innovator Founder Visa application without a separate financial requirement.',
+      },
+      {
+        title: 'Pathway to British Citizenship',
+        description:
+          'After six years of residency, qualifying applicants may apply for full British citizenship and a highly respected global passport.',
+      },
     ],
-    processIntro: "This step-by-step process illustrates the UK's Innovator Founder Visa journey.",
+    processIntro:
+      "This step-by-step process illustrates the UK Innovator Founder Visa residency application journey.",
     processSteps: [
       'Advisory Consultation',
       'Business Plan Development',
@@ -1083,23 +1363,23 @@ const residencePrograms = [
       'Visa Issuance',
     ],
     requirementsSummary:
-      'Applicants need an endorsed innovative, viable, and scalable business concept with supporting financial and language requirements.',
+      'Applicants must have an innovative, viable, and scalable business idea endorsed by a UK Home Office-approved endorsing body, along with sufficient funds to support themselves.',
     requirementsChecklist: [
       'Endorsing body approval required',
       'GBP 945 maintenance funds minimum',
       'English language proficiency (B2 level)',
     ],
     qualificationDescription:
-      'To qualify, applicants must satisfy endorsement, innovation, and language criteria.',
+      'To qualify for the UK Innovator Founder Visa, applicants must meet the following core requirements:',
     qualificationOptions: [
-      'Approval from a Home Office-endorsed body',
+      'Approval from a UK Home Office-endorsed body',
       'Innovative, viable, and scalable business concept',
       'English language at B2 level or above',
     ],
     investment: {
       title: 'Investment and Business Options for UK Residency',
       description:
-        'The visa focuses on business quality and endorsement rather than a fixed capital investment minimum.',
+        'The UK Innovator Founder Visa does not require a minimum capital investment. The primary qualifying factor is the quality, scalability, and innovation of the proposed business concept.',
       stats: [
         { value: 'No Min.', label: 'Investment\nRequired' },
         { value: '3 Years', label: 'Path to\nILR' },
@@ -1107,7 +1387,7 @@ const residencePrograms = [
       ],
     },
     legalBasis:
-      'The UK Innovator Founder Visa is governed by Immigration Rules Part 5 and administered by the UK Home Office.',
+      'The UK Innovator Founder Visa is governed by the Immigration Rules, Part 5, administered by the UK Home Office. RK Global Immigration provides comprehensive advisory support in full compliance with applicable UAE and UK regulatory requirements, including coordination with UK-based legal professionals and endorsing body liaisons.',
     faqs: makeFaqs(
       [
         'What is the UK Innovator Founder Visa?',
@@ -1141,27 +1421,52 @@ const residencePrograms = [
       title: 'About the United States of America',
       subtitle: "The World's Largest Economy",
       description:
-        'The United States offers one of the most valuable permanent residency outcomes globally through its Green Card framework.',
+        "The United States is the world's largest economy, a permanent UN Security Council member, and home to the most influential capital markets, technology companies, and educational institutions globally. A US Green Card provides permanent residency with full rights to live, work, and study anywhere in the country, and is widely regarded as one of the world's most valuable residency documents.",
       secondaryDescription:
-        'EB-5 is administered by USCIS and remains a key investment-based immigration route for global investors.',
+        "The EB-5 programme is administered by USCIS and has been the primary investment-based Green Card pathway for international investors since its establishment in 1990.",
       highlights: [
         "World's largest economy",
         'Green Card allows work anywhere in the US',
         'Pathway to US citizenship after 5 years',
-        'Access to top universities and schools',
+        'Access to world-ranked universities and schools',
       ],
     },
     benefitsIntro:
       'Invest to secure residency and access world-class living standards, business access, and global mobility.',
     benefits: [
-      { title: 'Permanent Green Card', description: 'US permanent residency with rights to live, work, and study nationwide.' },
-      { title: 'Path to US Citizenship', description: 'Eligible residents may apply for citizenship after statutory period.' },
-      { title: 'Education Access', description: 'Strong US education opportunities for families.' },
-      { title: 'Family Coverage', description: 'Spouse and unmarried children under 21 may be included.' },
-      { title: 'Regional Centre Route', description: 'Passive investment route available in approved projects.' },
-      { title: 'Long-Term Mobility', description: 'US citizenship later provides a highly ranked global passport.' },
+      {
+        title: 'Permanent Green Card',
+        description:
+          'The EB-5 programme delivers US permanent residency, granting full rights to live, work, and study in the United States.',
+      },
+      {
+        title: 'Path to US Citizenship',
+        description:
+          'After five years of permanent residency, EB-5 investors may apply for full US citizenship and a highly valued passport.',
+      },
+      {
+        title: 'World-Class Education',
+        description:
+          "Green Card holders access the US's world-ranked university system at domestic tuition rates for themselves and their children.",
+      },
+      {
+        title: 'Family Coverage',
+        description:
+          'Spouse and unmarried children under 21 are automatically included in the EB-5 petition at no additional investment cost.',
+      },
+      {
+        title: 'Regional Centre Route',
+        description:
+          'The Regional Centre Programme allows passive investment, removing the need for direct business involvement or management.',
+      },
+      {
+        title: 'Visa-Free US Passport',
+        description:
+          'After citizenship, holders receive one of the world\'s most powerful passports with visa-free access to 186+ countries.',
+      },
     ],
-    processIntro: 'This step-by-step process illustrates the US EB-5 investor visa journey.',
+    processIntro:
+      'This step-by-step process illustrates the US EB-5 investor visa and Green Card application journey.',
     processSteps: [
       'Advisory Consultation',
       'Project Selection',
@@ -1171,23 +1476,23 @@ const residencePrograms = [
       'Green Card Issuance',
     ],
     requirementsSummary:
-      'EB-5 applicants must make qualifying investment, prove lawful source of funds, and support required US job creation.',
+      'EB-5 applicants must make a qualifying capital investment, demonstrate a lawful source of funds, and ensure the investment creates at least ten full-time US jobs.',
     requirementsChecklist: [
       'Minimum USD 800,000 (TEA) or USD 1,050,000 investment',
       'Documented lawful source of funds required',
       'Creation of 10 full-time US jobs per investor',
     ],
     qualificationDescription:
-      'Investors may qualify through Regional Centre or direct enterprise routes.',
+      'Investors may participate in the EB-5 programme through one of two routes:',
     qualificationOptions: [
-      'Regional Centre Programme (passive route)',
-      'Direct investment in new commercial enterprise',
-      'TEA designation may reduce minimum to USD 800,000',
+      'Regional Centre Programme (passive investment route)',
+      'Direct investment in a new commercial enterprise',
+      'TEA designation reduces minimum to USD 800,000',
     ],
     investment: {
       title: 'Investment Options for US EB-5 Green Card',
       description:
-        'The Regional Centre model enables passive investment while meeting job creation requirements.',
+        'The EB-5 Regional Centre Programme allows investors to place capital passively in USCIS-approved projects, eliminating the need to manage a business directly while fulfilling job creation requirements.',
       stats: [
         { value: '800k', label: 'Min. TEA\nInvestment' },
         { value: '10 Jobs', label: 'Required Job\nCreation' },
@@ -1195,7 +1500,7 @@ const residencePrograms = [
       ],
     },
     legalBasis:
-      'EB-5 is governed by INA Section 203(b)(5), administered by USCIS, and updated by the EB-5 Reform and Integrity Act of 2022.',
+      'The EB-5 Immigrant Investor Programme is governed by the Immigration and Nationality Act Section 203(b)(5) and administered by US Citizenship and Immigration Services (USCIS). The EB-5 Reform and Integrity Act of 2022 introduced significant programme updates. RK Global Immigration provides full advisory compliance for all UAE and US regulatory requirements applicable to EB-5 investors.',
     faqs: makeFaqs(
       [
         'What is the minimum investment for the US EB-5 visa?',
