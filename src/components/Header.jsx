@@ -6,7 +6,7 @@ import logoUrl from '../assets/brand/logo.png';
 import footerLogoUrl from '../assets/brand/footer-logo.svg';
 import citizenshipPrograms, { defaultCitizenshipSlug } from '../data/citizenshipPrograms';
 import residencePrograms, { defaultResidenceSlug } from '../data/residencePrograms';
-import businessMigrationPrograms from '../data/businessMigrationPrograms';
+import businessMigrationPrograms, { defaultBusinessMigrationSlug } from '../data/businessMigrationPrograms';
 import digitalNomadPrograms, { defaultDigitalNomadSlug } from '../data/digitalNomadPrograms';
 
 const Header = () => {
@@ -114,6 +114,7 @@ const Header = () => {
   const headerTop = '0px';
   const citizenshipBasePath = `/citizenship/${defaultCitizenshipSlug}`;
   const residenceBasePath = `/residence/${defaultResidenceSlug}`;
+  const businessBasePath = `/business-migration/${defaultBusinessMigrationSlug}`;
   const digitalNomadBasePath = `/digital-nomad/${defaultDigitalNomadSlug}`;
   const businessGroupOrder = {
     canada: 0,
@@ -195,30 +196,6 @@ const Header = () => {
       </div>
     </NavLink>
   );
-
-  const renderDisabledMegaMenuLink = (program) => (
-    <div
-      key={program.slug}
-      className="relative flex items-center gap-3 rounded-2xl border border-gray-200 bg-white px-3 py-3 text-xs tracking-[0.08em] text-gray-800 opacity-70 cursor-not-allowed"
-      aria-disabled="true"
-    >
-      <img
-        src={program.flag}
-        alt={`${program.name} flag`}
-        className="h-14 w-20 rounded-lg object-cover border border-gray-200 bg-gray-100 shrink-0 md:h-16 md:w-24"
-      />
-      <div className="flex flex-col gap-1">
-        <span className="leading-tight">{program.menuLabel}</span>
-        {program.suspended && (
-          <span className="inline-flex items-center gap-1 w-fit px-2 py-0.5 rounded-full bg-gradient-to-r from-red-500 to-red-600 text-[9px] font-bold text-white uppercase tracking-[0.06em] shadow-sm shadow-red-500/30">
-            <span className="w-1.5 h-1.5 rounded-full bg-white/90 shrink-0" />
-            Temporarily Suspended
-          </span>
-        )}
-      </div>
-    </div>
-  );
-
 
   const clearCloseTimer = (timerRef) => {
     if (timerRef.current) {
@@ -378,10 +355,9 @@ const Header = () => {
                     onMouseEnter={openBusinessMenu}
                     onMouseLeave={closeBusinessMenuWithDelay}
                   >
-                    <button
-                      type="button"
+                    <NavLink
+                      to={businessBasePath}
                       className={`transition-all hover:opacity-70 ${isBusinessRoute ? 'border-b border-current pb-1' : 'opacity-90'}`}
-                      onClick={openBusinessMenu}
                     >
                       <span className="inline-flex items-center gap-1.5">
                         BUSINESS MIGRATION
@@ -390,7 +366,7 @@ const Header = () => {
                           className={`transition-transform duration-200 ${businessMenuOpen ? 'rotate-180' : 'rotate-0'}`}
                         />
                       </span>
-                    </button>
+                    </NavLink>
 
                     <div
                       onMouseEnter={openBusinessMenu}
@@ -401,7 +377,7 @@ const Header = () => {
                       <div className="mx-auto max-w-[1400px] rounded-3xl border border-gray-100 bg-white p-5 text-gray-900 shadow-2xl">
                         <div className="grid grid-cols-2 lg:grid-cols-3 gap-3">
                           {businessMenuPrograms.map((program) =>
-                            renderDisabledMegaMenuLink(program)
+                            renderMegaMenuLink(program, '/business-migration')
                           )}
                         </div>
                       </div>
@@ -597,10 +573,14 @@ const Header = () => {
 
                   <div className={`w-full overflow-hidden transition-all duration-300 ${businessMenuOpen ? 'max-h-[900px]' : 'max-h-0'}`}>
                     {businessMenuPrograms.map((program) => (
-                      <div
+                      <NavLink
                         key={program.slug}
-                        className="flex items-center gap-2 w-full py-3 pl-4 border-b border-gray-100 text-xs font-bold tracking-[0.12em] text-gray-500 cursor-not-allowed"
-                        aria-disabled="true"
+                        to={`/business-migration/${program.slug}`}
+                        onClick={() => setMenuOpen(false)}
+                        className={({ isActive }) =>
+                          `flex items-center gap-2 w-full py-3 pl-4 border-b border-gray-100 text-xs font-bold tracking-[0.12em] transition-all ${isActive ? 'text-[#C9A84C]' : 'text-gray-700 hover:text-[#C9A84C]'
+                          }`
+                        }
                       >
                         {program.menuLabel}
                         {program.suspended && (
@@ -609,7 +589,7 @@ const Header = () => {
                             Suspended
                           </span>
                         )}
-                      </div>
+                      </NavLink>
                     ))}
                   </div>
                 </div>
