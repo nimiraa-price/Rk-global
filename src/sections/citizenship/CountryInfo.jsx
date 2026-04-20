@@ -33,14 +33,16 @@ const CountryInfo = ({ program }) => {
                 {about.secondaryDescription}
               </p>
 
-              <ul className="text-gray-600 text-[13px] md:text-base flex flex-col gap-1.5 pl-2 md:pl-3 mt-1">
-                {about.highlights.map((highlight) => (
-                  <li key={highlight} className="flex items-start gap-3">
-                    <span className="mt-2 w-1.5 h-1.5 rounded-full bg-gray-500 shrink-0"></span>
-                    <span>{highlight}</span>
-                  </li>
-                ))}
-              </ul>
+              {about.highlights && about.highlights.length > 0 && (
+                <ul className="text-gray-600 text-[13px] md:text-base flex flex-col gap-1.5 pl-2 md:pl-3 mt-1">
+                  {about.highlights.map((highlight) => (
+                    <li key={highlight} className="flex items-start gap-3">
+                      <span className="mt-2 w-1.5 h-1.5 rounded-full bg-gray-500 shrink-0"></span>
+                      <span>{highlight}</span>
+                    </li>
+                  ))}
+                </ul>
+              )}
             </div>
           </div>
 

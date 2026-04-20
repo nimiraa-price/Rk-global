@@ -13,7 +13,7 @@ const ProgramRequirements = ({ program }) => {
             </h2>
           </div>
           <div className="lg:text-right">
-            <p className="text-[12px] md:text-sm lg:text-base text-gray-600 lg:max-w-[420px] lg:ml-auto leading-[1.7]">
+            <p className="text-[12px] md:text-sm lg:text-base text-gray-600 lg:max-w-[420px] lg:ml-auto leading-[1.7] line-clamp-3">
               {program.requirementsSummary}
             </p>
           </div>
