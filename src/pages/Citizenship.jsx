@@ -45,7 +45,10 @@ const Citizenship = () => {
         </section>
 
         <div id="requirements">
-          <ProgramRequirements program={program} />
+          <ProgramRequirements
+            program={program}
+            qualificationHeading={`How to Get ${program.name} Citizenship`}
+          />
         </div>
 
         <div id="process">

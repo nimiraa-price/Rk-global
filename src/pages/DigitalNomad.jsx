@@ -45,7 +45,7 @@ const DigitalNomad = () => {
         </section>
 
         <div id="requirements">
-          <ProgramRequirements program={program} />
+          <ProgramRequirements program={program} withToggle />
         </div>
 
         <div id="process">

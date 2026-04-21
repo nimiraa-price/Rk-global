@@ -45,7 +45,10 @@ const Residence = () => {
         </section>
 
         <div id="requirements">
-          <ProgramRequirements program={program} />
+          <ProgramRequirements
+            program={program}
+            qualificationHeading={`How to Get ${program.name} Residency`}
+          />
         </div>
 
         <div id="process">
