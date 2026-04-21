@@ -31,7 +31,7 @@ const SectionLabel = ({ children }) => (
 const About = () => {
   const content = useMemo(
     () => ({
-      aboutTitle: 'About Us',
+      aboutTitle: 'Our Expertise',
       aboutHeadline: 'Structured global mobility, built on compliance and clarity.',
       aboutParagraphs: [
         'RK Global Immigration operates as a dedicated advisory platform for individuals, families, and investors seeking structured global mobility solutions.',
