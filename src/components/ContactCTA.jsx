@@ -18,7 +18,7 @@ const ContactCTA = () => {
           </h2>
 
           <p className="text-[#cbd5e1] text-[12px] md:text-xl font-medium mb-5 md:mb-12 leading-[1.75] max-w-5xl">
-            Invest in your future with Passport Legacy and unlock a world of possibilities. Connect with one of our client advisors today to book a private consultation and discover bespoke residence and citizenship by investment solutions that cater to your unique needs.
+            Invest in your future with RK Global and unlock a world of possibilities. Connect with one of our client advisors today to book a private consultation and discover bespoke residence and citizenship by investment solutions that cater to your unique needs.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">

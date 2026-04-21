@@ -38,7 +38,7 @@ const Footer = () => {
             className="w-auto h-16 md:h-20 object-contain self-start" 
           />
           <p className="text-gray-700 text-sm md:text-base font-medium leading-relaxed max-w-sm">
-            We are your gateway to global opportunities. RK Global Immigration provides expert, end-to-end immigration solutions, guiding students, professionals, and families seamlessly from initial consultation to successful settlement abroad.
+            RK Global Immigration Services empowers individuals and families to achieve global citizenship through strategic investments in second residencies and citizenship programs worldwide.  Our team play a pivotal role in supporting governments, immigration consultants, legal and financial professionals, and investors in achieving their objectives with efficiency, effectiveness, and the highest standards of integrity and responsibility.
           </p>
         </div>
 

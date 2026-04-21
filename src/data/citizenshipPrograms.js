@@ -180,7 +180,7 @@ const citizenshipPrograms = [
       ],
     },
     benefitsIntro:
-      'Benefits of ANTIGUA Citizenship by Investment Program. Invest to expand your passport and upgrade your global mobility, with visa-free entry to over 150 Countries.',
+      'Benefits of ANTIGUA AND BARBUDA Citizenship by Investment Program. Invest to expand your passport and upgrade your global mobility, with visa-free entry to over 150 Countries.',
     benefits: [
       {
         title: 'Commonwealth Membership',
@@ -214,7 +214,7 @@ const citizenshipPrograms = [
       },
     ],
     processIntro:
-      "Step-by-Step Process for ANTIGUA AND Citizenship by Investment. This step-by-step process illustrates Antigua and Barbuda's full citizenship application journey.",
+      "Step-by-Step Process for ANTIGUA AND BARBUDA Citizenship by Investment. This step-by-step process illustrates Antigua and Barbuda's full citizenship application journey.",
     processSteps: [
       'Strategic Consultation',
       'Compliance Review',
@@ -224,7 +224,7 @@ const citizenshipPrograms = [
       'Oath and Passport',
     ],
     requirementsSummary:
-      "Requirements for ANTIGUA Citizenship by Investment. Applicants must be at least 18 years of age, of good character, and meet the programme's health and financial integrity requirements.",
+      "Requirements for ANTIGUA AND BARBUDA Citizenship by Investment. Applicants must be at least 18 years of age, of good character, and meet the programme's health and financial integrity requirements.",
     requirementsChecklist: [
       'Criminal background check required',
       'Proof of lawful source of funds',
@@ -277,14 +277,14 @@ const citizenshipPrograms = [
   },
   {
     slug: 'st-kitts-and-nevis',
-    name: 'St. Kitts and Nevis',
-    menuLabel: 'St. Kitts and Nevis',
+    name: 'Saint Kitts & Nevis',
+    menuLabel: 'Saint Kitts & Nevis',
     flag: stKittsFlag,
     heroImage: stkittsCountryImg,
     contactImage: stKittsContactImg,
-    heroTitle: 'ST. KITTS AND NEVIS CITIZENSHIP\nBY INVESTMENT PROGRAM',
+    heroTitle: 'SAINT KITTS & NEVIS CITIZENSHIP\nBY INVESTMENT PROGRAM',
     heroDescription:
-      "The world's oldest CBI programme, established 1984, with 157+ visa-free destinations. St. Kitts and Nevis carries four decades of credibility as the world's first citizenship by investment programme. With a minimum investment of USD 250,000, access to 157+ countries, an accelerated 45-day processing option, and no residency requirement, it remains the global gold standard for second citizenship.",
+      "The world's oldest CBI programme, established 1984, with 157+ visa-free destinations. Saint Kitts & Nevis carries four decades of credibility as the world's first citizenship by investment programme. With a minimum investment of USD 250,000, access to 157+ countries, an accelerated 45-day processing option, and no residency requirement, it remains the global gold standard for second citizenship.",
     stats: [
       { value: 'USD 250,000', label: 'Min. by\nContribution' },
       { value: 'USD 400,000', label: 'Min. by\nReal Estate' },
@@ -292,10 +292,10 @@ const citizenshipPrograms = [
       { value: '157 Countries', label: 'Visa-Free\nAccess' },
     ],
     about: {
-      title: 'About St. Kitts and Nevis',
+      title: 'About Saint Kitts & Nevis',
       subtitle: "The World's First CBI Nation",
       description:
-        "St. Kitts and Nevis is a dual-island Caribbean federation and member of the British Commonwealth. Home to the world's first and most recognised citizenship by investment programme since 1984, it has set the international benchmark for transparency, due diligence, and investor confidence for four consecutive decades.",
+        "Saint Kitts & Nevis is a dual-island Caribbean federation and member of the British Commonwealth. Home to the world's first and most recognised citizenship by investment programme since 1984, it has set the international benchmark for transparency, due diligence, and investor confidence for four consecutive decades.",
       secondaryDescription:
         'Its accelerated 45-business-day processing pathway makes it the fastest option among established Caribbean programmes for eligible applicants.',
       highlights: [
@@ -306,7 +306,7 @@ const citizenshipPrograms = [
       ],
     },
     benefitsIntro:
-      'Benefits of ST. Citizenship by Investment Program. Invest to expand your passport and upgrade your global mobility, with visa-free entry to over 157 Countries.',
+      'Benefits of SAINT KITTS & NEVIS Citizenship by Investment Program. Invest to expand your passport and upgrade your global mobility, with visa-free entry to over 157 Countries.',
     benefits: [
       {
         title: "World's Oldest Programme",
@@ -340,7 +340,7 @@ const citizenshipPrograms = [
       },
     ],
     processIntro:
-      'Step-by-Step Process for ST. KITTS Citizenship by Investment. This step-by-step process illustrates the full St. Kitts and Nevis citizenship application journey.',
+      'Step-by-Step Process for SAINT KITTS & NEVIS Citizenship by Investment. This step-by-step process illustrates the full Saint Kitts & Nevis citizenship application journey.',
     processSteps: [
       'Eligibility Assessment',
       'Document Preparation',
@@ -350,7 +350,7 @@ const citizenshipPrograms = [
       'Passport Issuance',
     ],
     requirementsSummary:
-      'Requirements for ST. Citizenship by Investment. All applicants must be aged 18 or above, hold a clean criminal record, and demonstrate a verifiable and lawful source of investment funds.',
+      'Requirements for SAINT KITTS & NEVIS Citizenship by Investment. All applicants must be aged 18 or above, hold a clean criminal record, and demonstrate a verifiable and lawful source of investment funds.',
     requirementsChecklist: [
       'Full criminal background check',
       'Documented source of investment funds',
@@ -362,7 +362,7 @@ const citizenshipPrograms = [
       'Government-approved real estate purchase',
     ],
     investment: {
-      title: 'Real Estate Investment Options for St. Kitts and Nevis Citizenship',
+      title: 'Real Estate Investment Options for Saint Kitts & Nevis Citizenship',
       description:
         'Approved real estate developments offer citizenship alongside property ownership, with potential for rental yield throughout the holding period.',
       stats: [
@@ -372,10 +372,10 @@ const citizenshipPrograms = [
       ],
     },
     legalBasis:
-      'The programme is governed by the Saint Christopher and Nevis Citizenship by Investment Regulations, Cap. 1.05. Administered by the dedicated CBI Unit, it applies internationally benchmarked due diligence standards. RK Global Immigration ensures full compliance across UAE and St. Kitts and Nevis regulatory frameworks for every client application.',
+      'The programme is governed by the Saint Christopher and Nevis Citizenship by Investment Regulations, Cap. 1.05. Administered by the dedicated CBI Unit, it applies internationally benchmarked due diligence standards. RK Global Immigration ensures full compliance across UAE and Saint Kitts & Nevis regulatory frameworks for every client application.',
     faqs: [
       {
-        question: 'Why is St. Kitts and Nevis considered the gold standard of CBI?',
+        question: 'Why is Saint Kitts & Nevis considered the gold standard of CBI?',
         answer:
           'Because it is the oldest citizenship by investment programme in the world, dating back to 1984, with a long-established due diligence reputation.',
       },
@@ -397,10 +397,10 @@ const citizenshipPrograms = [
       {
         question: 'Is there a physical residency requirement?',
         answer:
-          'No residency requirement applies for the St. Kitts and Nevis programme.',
+          'No residency requirement applies for the Saint Kitts & Nevis programme.',
       },
       {
-        question: 'Does St. Kitts and Nevis allow dual citizenship?',
+        question: 'Does Saint Kitts & Nevis allow dual citizenship?',
         answer:
           'Yes. The programme is a permanent second citizenship that can be held alongside your current nationality.',
       },
@@ -415,7 +415,7 @@ const citizenshipPrograms = [
     contactImage: stLuciaContactImg,
     heroTitle: 'ST. LUCIA CITIZENSHIP\nBY INVESTMENT PROGRAM',
     heroDescription:
-      "The most affordable Caribbean Commonwealth CBI, from just USD 100,000. Launched in 2016, St. Lucia's CBI programme combines Commonwealth membership, an eight-to-ten-month processing timeline, and one of the most accessible entry points of any Caribbean Commonwealth programme. With visa-free access to 145+ destinations and no residency obligation, it is an outstanding choice for value-conscious investors.",
+      "Launched in 2016, St. Lucia's CBI programme combines Commonwealth membership, an eight-to-ten-month processing timeline, and one of the most accessible entry points of any Caribbean Commonwealth programme. With visa-free access to 145+ destinations and no residency obligation, it is an outstanding choice for value-conscious investors.",
     stats: [
       { value: 'USD 240,000', label: 'Min. by\nContribution' },
       { value: 'USD 300,000', label: 'Min. by\nReal Estate' },
@@ -437,7 +437,7 @@ const citizenshipPrograms = [
       ],
     },
     benefitsIntro:
-      'Benefits of ST. Citizenship by Investment Program. Invest to expand your passport and upgrade your global mobility, with visa-free entry to over 145 Countries.',
+      'Benefits of SAINT LUCIA Citizenship by Investment Program. Invest to expand your passport and upgrade your global mobility, with visa-free entry to over 145 Countries.',
     benefits: [
       {
         title: 'Lowest Caribbean Entry',
@@ -471,7 +471,7 @@ const citizenshipPrograms = [
       },
     ],
     processIntro:
-      "Step-by-Step Process for ST. LUCIA Citizenship by Investment. This step-by-step process illustrates St. Lucia's full citizenship by investment application journey.",
+      "Step-by-Step Process for SAINT LUCIA Citizenship by Investment. This step-by-step process illustrates St. Lucia's full citizenship by investment application journey.",
     processSteps: [
       'Advisory Consultation',
       'Document Preparation',
@@ -481,7 +481,7 @@ const citizenshipPrograms = [
       'Passport Delivery',
     ],
     requirementsSummary:
-      'Requirements for ST. Citizenship by Investment. All applicants must be at least 18 years of age, hold a clean criminal record, and provide documented evidence of a lawful source of funds.',
+      'Requirements for SAINT LUCIA Citizenship by Investment. All applicants must be at least 18 years of age, hold a clean criminal record, and provide documented evidence of a lawful source of funds.',
     requirementsChecklist: [
       'Criminal background check required',
       'Proof of lawful investment source',
@@ -965,7 +965,7 @@ const citizenshipPrograms = [
       ],
     },
     benefitsIntro:
-      'Benefits of SAO Citizenship by Investment Program. Invest to expand your passport and access one of the newest and most affordable sovereign citizenship propositions available today.',
+      'Benefits of SAO TOME AND PRINCIPE Citizenship by Investment Program. Invest to expand your passport and access one of the newest and most affordable sovereign citizenship propositions available today.',
     benefits: [
       {
         title: "World's Most Affordable CBI",
@@ -999,7 +999,7 @@ const citizenshipPrograms = [
       },
     ],
     processIntro:
-      "Step-by-Step Process for SAO TOME Citizenship by Investment. This step-by-step process illustrates Sao Tome and Principe's full citizenship by investment journey.",
+      "Step-by-Step Process for SAO TOME AND PRINCIPE Citizenship by Investment. This step-by-step process illustrates Sao Tome and Principe's full citizenship by investment journey.",
     processSteps: [
       'Initial Consultation',
       'Eligibility Review',
@@ -1009,7 +1009,7 @@ const citizenshipPrograms = [
       'Passport Issuance',
     ],
     requirementsSummary:
-      'Requirements for SAO Citizenship by Investment. Applicants must be at least 18 years of age, hold a clean criminal record, and provide a verified lawful source of contribution funds.',
+      'Requirements for SAO TOME AND PRINCIPE Citizenship by Investment. Applicants must be at least 18 years of age, hold a clean criminal record, and provide a verified lawful source of contribution funds.',
     requirementsChecklist: [
       'Criminal background check required',
       'Verified source of investment funds',
