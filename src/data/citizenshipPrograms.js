@@ -1,4 +1,5 @@
 import antiguaFlag from '../assets/flags/antigua-flag.jpg';
+import dominicaFlag from '../assets/flags/domnican-flag.jpeg';
 import grenadaFlag from '../assets/flags/grenada-flag.png';
 import nauruFlag from '../assets/flags/nauru-flag.jpg';
 import saoFlag from '../assets/flags/sao-tome-flag.jpg';
@@ -10,12 +11,14 @@ import grenadaCountryImg from '../assets/country/_GRENADA.png';
 import turkeyCountryImg from '../assets/country/_TURKEY.png';
 import saoCountryImg from '../assets/country/_SAO-TOME-AND-PRINCIPE.png-1.png';
 import antiguaCountryImg from '../assets/country/ANTIGUA-AND-BARBUDA.png';
+import dominicaCountryImg from '../assets/country/Dominican-Republic.png';
 import stkittsCountryImg from '../assets/country/ST.-KITTS-AND-NEVIS- (1).png';
 import nauruCountryImg from '../assets/country/NAURU-.2.png';
 import stluciaCountryImg from '../assets/country/st.-lucia-.png';
 import vanuatuCountryImg from '../assets/country/_VANUATU.png';
 import grenadaContactImg from '../assets/get-in-touch/_GRENADA-.jpg.jpeg';
 import antiguaContactImg from '../assets/get-in-touch/_ANTIGUA-AND-BARBUDA.jpg.jpeg';
+import dominicaContactImg from '../assets/get-in-touch/domnican.png';
 import stKittsContactImg from '../assets/get-in-touch/ST.-KITTS-AND-NEVIS-.jpg.jpeg';
 import stLuciaContactImg from '../assets/get-in-touch/ST.-LUCIA.jpg.jpeg';
 import turkeyContactImg from '../assets/get-in-touch/turky-.jpg.jpeg';
@@ -535,6 +538,145 @@ const citizenshipPrograms = [
         question: 'What tax advantages come with St. Lucia citizenship?',
         answer:
           'St. Lucia has no worldwide income, capital gains, or inheritance tax for international investors.',
+      },
+    ],
+  },
+  {
+    slug: 'dominica',
+    name: 'Dominica',
+    menuLabel: 'Dominica',
+    flag: dominicaFlag,
+    heroImage: dominicaCountryImg,
+    contactImage: dominicaContactImg,
+    heroTitle: 'DOMINICA CITIZENSHIP AND PASSPORT\nBY INVESTMENT PROGRAM',
+    heroDescription:
+      "Discover the world's most trusted and affordable citizenship by investment program - established in 1993. Secure a second passport with visa-free travel to 140+ countries for you and your family.",
+    stats: [
+      { value: 'USD 200,000', label: 'Min. by\nContribution (EDF)' },
+      { value: 'USD 200,000', label: 'Min. by\nReal Estate' },
+      { value: '3-9 Months', label: 'Processing\nTime' },
+      { value: '140+ Countries', label: 'Visa-Free\nAccess' },
+    ],
+    about: {
+      title: 'About Dominica',
+      subtitle: 'The Nature Isle of the Caribbean',
+      description:
+        'Dominica is a breathtaking island nation nestled in the heart of the Eastern Caribbean, fondly known as the "Nature Isle of the Caribbean." Blessed with lush rainforests, volcanic peaks, cascading waterfalls, and pristine rivers, Dominica stands apart as one of the most ecologically unspoiled destinations in the world.',
+      secondaryDescription:
+        'This Commonwealth nation has been offering its renowned Citizenship by Investment Programme since 1993 - the longest-running program of its kind globally. Through this programme, thousands of investors and families have secured full Dominican citizenship, enjoying unmatched global mobility and a host of financial advantages.',
+      highlights: [
+        'Commonwealth member nation with political stability',
+        'English is the official language',
+        'No tax on worldwide income, capital gains, or inheritance',
+        'Dual citizenship fully permitted',
+        'Visa-free access to 140+ countries including Schengen',
+        'No mandatory residence requirement',
+      ],
+    },
+    benefitsIntro:
+      'Benefits of Dominica Citizenship by Investment Program. Invest to expand your passport and upgrade your global mobility, with your free entry to 140+ Countries.',
+    benefits: [
+      {
+        title: 'Visa-Free Access',
+        description:
+          'Travel visa-free or with visa-on-arrival to 140+ destinations worldwide including all 29 Schengen countries, Singapore, Hong Kong, China, and more.',
+      },
+      {
+        title: 'Dual Citizenship',
+        description:
+          'Dominica fully permits dual and multiple citizenships. There is no requirement to renounce your original nationality when obtaining Dominican citizenship.',
+      },
+      {
+        title: 'Low Tax Rate',
+        description:
+          'No capital gains tax, wealth tax, or inheritance tax. Tax residents enjoy exemption from tax on foreign income, making Dominica highly attractive for wealth preservation.',
+      },
+      {
+        title: 'Fast Processing',
+        description:
+          'Applications are typically approved within 3 to 9 months from submission. The entire process can be completed fully remotely through an authorized agent.',
+      },
+      {
+        title: 'For Family',
+        description:
+          'Include your spouse, dependent children under 31, dependent parents, and grandparents aged 65+ in a single application. Dependents can be added even after citizenship is granted.',
+      },
+      {
+        title: 'E-2 Treaty Visa',
+        description:
+          'As a Dominica citizen, you gain eligibility to apply for a US E-2 Investor Visa, opening doors to live and conduct business in the United States.',
+      },
+    ],
+    processIntro:
+      'Step-by-Step Process for Dominica Citizenship by Investment. This Dominica step-by-step application process illustrates the full citizenship journey.',
+    processSteps: [
+      'Initial Consultation',
+      'Due Diligence Preparation',
+      'Investment Selection',
+      'Application Submission',
+      'Image Approval',
+      'Oath and Certificate',
+    ],
+    requirementsSummary:
+      'Requirements for Dominica Citizenship by Investment. To acquire Dominica citizenship you must be over 18 years of age and meet the good character requirements.',
+    requirementsChecklist: [
+      'Minimum age of 18 years at time of application',
+      'Clean criminal record - no prior convictions',
+      'Pass comprehensive due diligence background checks',
+      'Be in good health - medical certificate required',
+      'Proof of lawful source of investment funds',
+      'Demonstrate outstanding character and repute',
+      'Make the required investment contribution or real estate purchase',
+      'Valid passport and supporting identity documents',
+    ],
+    qualificationDescription: 'How to Get Dominica Citizenship',
+    qualificationOptions: [
+      'To obtain citizenship, you must choose one of two qualifying investment routes: a non-refundable contribution to the Economic Diversification Fund (EDF), or a government-approved real estate investment of at least USD 200,000.',
+      'Virtual interviews are mandatory for all applicants and family members aged 16 and above.',
+      'No physical residency or language proficiency is required at any stage.',
+    ],
+    investment: {
+      title: 'Real Estate Investment Options for Dominica Citizenship Program',
+      description:
+        'These real estate options are particularly attractive for investors who prefer to combine citizenship with property ownership and investment.',
+      stats: [
+        { value: 'USD 200,000', label: 'Minimum Real Estate Investment' },
+        { value: '3-5 Years', label: 'Minimum Hold Period' },
+        { value: 'Eco-Resorts', label: 'Luxury Approved Projects' },
+      ],
+    },
+    legalBasis:
+      "The Dominica Citizenship by Investment Programme operates under Section 101 of the Constitution of the Commonwealth of Dominica and Sections 8 and 20(1) of the Citizenship Act. Established in 1993, this programme allows the Government to grant citizenship to persons who qualify under specific criteria and policy guidelines, while attracting foreign direct investment to boost national development. The Citizenship by Investment Unit (CBIU), operating under the Ministry of Finance, is responsible for processing all applications. The Programme has been internationally recognised as one of the most reputable, transparent, and rigorously managed second citizenship initiatives in the world - with a track record of integrity spanning over 30 years. Singapore, international financial institutions, and leading global immigration advisory firms consistently rank Dominica's CBI Programme among the top programs worldwide for due diligence standards and programme reliability.",
+    faqs: [
+      {
+        question: 'What is the minimum investment for Dominica citizenship?',
+        answer:
+          'The minimum investment starts from USD 200,000 - either as a non-refundable contribution to the Economic Diversification Fund (EDF) or as a government-approved real estate purchase. Additional government fees and due diligence costs apply based on the number of family members included.',
+      },
+      {
+        question: 'How long does the application process take?',
+        answer:
+          'The Dominica citizenship application is typically processed within 3 to 9 months from the date of complete submission. The entire process can be completed remotely without any requirement to visit Dominica.',
+      },
+      {
+        question: 'Which family members can be included in my application?',
+        answer:
+          'You may include your spouse, dependent children under 31 (including those in full-time education), dependent parents, and grandparents aged 65 or above. Siblings and other dependents may qualify under certain conditions.',
+      },
+      {
+        question: 'What is the US E-2 Treaty Visa advantage for Dominica citizens?',
+        answer:
+          'Dominica has a treaty with the United States that allows Dominican citizens to apply for the E-2 Investor Visa. This gives Dominica passport holders a unique pathway to live and do business in the USA, which is not available to citizens of many other countries.',
+      },
+      {
+        question: 'Is there a residency requirement for Dominica citizenship?',
+        answer:
+          'No. There is no mandatory residence requirement before or after obtaining Dominica citizenship. However, successful applicants have the right to reside in Dominica at any time and for any duration they choose.',
+      },
+      {
+        question: 'What are the tax advantages of holding Dominica citizenship?',
+        answer:
+          'Dominica does not impose capital gains tax, wealth tax, inheritance tax, or tax on worldwide foreign income. This makes it an excellent jurisdiction for high-net-worth individuals seeking lawful and efficient wealth preservation strategies.',
       },
     ],
   },
