@@ -37,11 +37,11 @@ const UnlockGlobalMobility = () => {
             Fill out the form and our advisors will guide you through the best residency and citizenship investment options.
           </p>
           
-          <div className="flex flex-col md:flex-row gap-2 w-full md:w-auto">
-            <Link to="/contact" className="w-full md:w-auto bg-[#C6A03E] hover:bg-[#b08e37] text-white font-semibold px-8 py-4 md:py-3 rounded-[2rem] transition-all duration-300 hover:scale-105 hover:shadow-xl hover:-translate-y-1 text-[16px] md:text-[15px] lg:text-lg shadow-md text-center">
+          <div className="flex flex-row md:flex-row gap-2 w-full md:w-auto">
+            <Link to="/contact" className="w-full md:w-auto bg-[#C6A03E] hover:bg-[#b08e37] text-white font-semibold px-4 py-4 md:py-3 rounded-[2rem] transition-all duration-300 hover:scale-105 hover:shadow-xl hover:-translate-y-1 text-[14px] md:text-[15px] lg:text-lg shadow-md text-center">
               Book a Consultation
             </Link>
-            <Link to="/citizenship" className="w-full md:w-auto bg-white hover:bg-gray-50 text-[#C6A03E] font-semibold px-8 py-4 md:py-3 rounded-[2rem] transition-all duration-300 hover:scale-105 hover:shadow-xl hover:-translate-y-1 text-[16px] md:text-[15px] lg:text-lg shadow-md border border-transparent text-center">
+            <Link to="/citizenship" className="w-full md:w-auto bg-white hover:bg-gray-50 text-[#C6A03E] font-semibold px-4 py-4 md:py-3 rounded-[2rem] transition-all duration-300 hover:scale-105 hover:shadow-xl hover:-translate-y-1 text-[14px] md:text-[15px] lg:text-lg shadow-md border border-transparent text-center">
               Explore Programs
             </Link>
           </div>

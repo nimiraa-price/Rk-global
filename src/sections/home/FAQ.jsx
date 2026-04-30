@@ -48,12 +48,8 @@ const FAQ = () => {
       <div className="max-w-[1400px] mx-auto px-4 md:px-8">
         <div className="flex flex-col lg:flex-row lg:gap-[88px] items-start">
           <div className="w-full lg:max-w-[470px] flex flex-col">
-            <h2 className="text-[30px] md:text-[44px] lg:text-[58px] font-extrabold text-black uppercase tracking-[-0.04em] leading-[1.08] mb-8 text-center md:text-left">
-              Frequently
-              <br />
-              Asked
-              <br />
-              Questions
+            <h2 className="text-[30px] md:text-[34px] lg:text-[38px] font-extrabold text-black uppercase tracking-[-0.04em] leading-[1.08] mb-8 text-center md:text-left">
+              Frequently Asked Questions
             </h2>
 
             <div className="w-full max-w-[520px] mx-auto md:mx-0 flex flex-col gap-1.5">
