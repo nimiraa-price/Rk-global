@@ -119,7 +119,7 @@ const CitizenshipPrograms = () => {
           {/* Header */}
           <div className="text-center mb-6 md:mb-10">
             <h2
-              className="font-bold text-gray-900 uppercase mb-4 text-[30px] leading-[141%] md:text-[40px] md:leading-normal"
+              className="font-bold text-gray-900 uppercase mb-4 text-[24px] leading-[141%] md:text-[40px] md:leading-normal"
             >
               Citizenship By Investment Programmes
             </h2>

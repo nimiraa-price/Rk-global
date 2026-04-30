@@ -261,7 +261,7 @@ const ProcessSection = () => {
             style={{
               width: 'min(760px, 130vw)',
               height: 'min(760px, 130vw)',
-              top: 'clamp(-470px, -40vw, -452px)',
+              top: 'clamp(-470px, -40vw, -280px)',
               left: '50%',
               x: '-50%',
               rotate: useTransform(activeIndex, (val) => val * 33)
