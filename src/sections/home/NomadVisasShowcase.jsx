@@ -80,7 +80,7 @@ const NomadVisasShowcase = () => {
             <h2
               className="font-bold text-gray-900 uppercase mb-4 text-[24px] leading-[141%] md:text-[40px] md:leading-normal"
             >
-              Nomad Visas
+              Digital Nomad Visas
             </h2>
             <p
               className="text-[#8c8c8c] max-w-6xl mx-auto font-bold text-[14px] leading-[145%] md:text-[18px] md:leading-[145%]"

@@ -43,7 +43,7 @@ const Footer = () => {
         </div>
 
         {/* Center: Links / Info */}
-        <div className="flex flex-col sm:flex-row gap-12 lg:gap-24 lg:w-[40%] lg:pl-8">
+        <div className="flex flex-col sm:flex-row gap-12 lg:gap-24 lg:w-[40%] lg:pl-8 lg:mt-[104px]">
           
           <div className="flex flex-col gap-6">
             <h3 className="text-black font-bold text-lg mb-1">Explore</h3>
@@ -93,16 +93,16 @@ const Footer = () => {
             <span className="text-black font-bold text-sm md:text-base mr-2">
               Follow Us
             </span>
-            <a href="#" className="text-[#0a2769] hover:opacity-75 transition-opacity">
+            <a href="https://www.facebook.com/profile.php?id=61573448872654" target="_blank" rel="noopener noreferrer" className="text-[#0a2769] hover:opacity-75 transition-opacity">
               <FaFacebook size={24} />
             </a>
             <a href="#" className="text-[#0a2769] hover:opacity-75 transition-opacity">
               <FaTwitter size={24} />
             </a>
-            <a href="#" className="text-[#0a2769] hover:opacity-75 transition-opacity">
+            <a href="https://www.instagram.com/rkglobal14/" target="_blank" rel="noopener noreferrer" className="text-[#0a2769] hover:opacity-75 transition-opacity">
                <FaInstagram size={26} />
             </a>
-            <a href="#" className="text-[#0a2769] hover:opacity-75 transition-opacity">
+            <a href="https://www.linkedin.com/company/rk-global-immigration-services/" target="_blank" rel="noopener noreferrer" className="text-[#0a2769] hover:opacity-75 transition-opacity">
                <FaLinkedin size={26} />
             </a>
             <a href="#" className="text-[#0a2769] hover:opacity-75 transition-opacity">

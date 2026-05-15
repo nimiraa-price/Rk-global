@@ -40,9 +40,9 @@ const Home = () => {
         <motion.div {...fadeInUp}>
           <NomadVisasShowcase />
         </motion.div>
-        <motion.div {...fadeInUp}>
+        {/* <motion.div {...fadeInUp}>
           <StatsSection />
-        </motion.div>
+        </motion.div> */}
         <motion.div {...fadeInUp}>
           <WhyChooseUs />
         </motion.div>

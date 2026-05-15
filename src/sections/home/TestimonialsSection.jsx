@@ -6,36 +6,36 @@ import testimonialBanner from '../../assets/images/testimonial-background.png';
 const testimonials = [
   {
     id: 1,
-    name: 'Mrs. Gayatri',
-    location: 'Chennai, TN',
+    name: 'Mr. Rahul',
+    location: 'Delhi, India',
     text: 'RK Global Immigration completely transformed our family\'s future. Their expert team guided us through the entire residency process with unmatched professionalism and clarity.',
     image: 'https://i.pravatar.cc/150?u=a04258a2462d826712d'
   },
   {
     id: 2,
-    name: 'Mr. Karan',
-    location: 'Kanpur, UP',
+    name: 'Mr. Tariq',
+    location: 'Dubai',
     text: 'The team\'s dedication and transparent communication made securing our Caribbean citizenship incredibly smooth. I highly recommend their services to any business owner.',
     image: 'https://i.pravatar.cc/150?u=a042581f4e29026704d'
   },
   {
     id: 3,
-    name: 'Mr. Usman',
-    location: 'New Delhi',
+    name: 'Mr. David',
+    location: 'California',
     text: 'I was overwhelmed by the complexities of the business migration visa, but RK Global provided a tailored strategy that worked perfectly. Truly exceptional service.',
     image: 'https://i.pravatar.cc/150?u=a04258114e29026702d'
   },
   {
     id: 4,
-    name: 'Ms. Sarah',
-    location: 'Mumbai, MH',
+    name: 'Mrs. Fatima',
+    location: 'Abu Dhabi',
     text: 'Exceptional service and deep understanding of the global mobility landscape. Highly recommended for complicated cases.',
     image: 'https://i.pravatar.cc/150?img=47'
   },
   {
     id: 5,
-    name: 'Mr. David',
-    location: 'Bangalore, KA',
+    name: 'Ms. Emily',
+    location: 'New York',
     text: 'The process was entirely seamless. Their team handled everything from document collection to final submission flawlessly.',
     image: 'https://i.pravatar.cc/150?img=11'
   }
