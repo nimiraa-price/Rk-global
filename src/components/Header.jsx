@@ -165,7 +165,7 @@ const Header = () => {
     { type: 'residence' },
     { type: 'business' },
     { type: 'digitalNomad' },
-    { to: '/about', label: 'ABOUT' },
+    { to: '/about', label: 'OUR EXPERTISE' },
     { to: '/contact', label: 'CONTACT US' },
   ];
 
