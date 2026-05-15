@@ -82,71 +82,7 @@ const buildProgram = ({
 });
 
 const businessMigrationPrograms = [
-  buildProgram({
-    slug: 'canada-start-up-visa',
-    name: 'Canada Start-Up Visa',
-    menuLabel: 'Canada Start-Up Visa',
-    suspended: true,
-    flag: canadaFlag,
-    heroImage: canadaCountryImg,
-    contactImage: canadaContactImg,
-    heroTitle: 'CANADA START-UP VISA [TEMPORARILY SUSPENDED]',
-    heroDescription:
-      'Canada stands as one of the world\'s most dynamic destinations for entrepreneurs seeking to build a global business.',
-    stats: [
-      { value: 'C$275,000', label: 'Minimum\nInvestment' },
-      { value: '10 Years', label: 'Time to\nProcess' },
-      { value: 'PR', label: 'Residency\nStatus' },
-      { value: '1', label: 'Visa-Free\nNations' },
-    ],
-    aboutTitle: 'About Canada',
-    aboutSubtitle: 'The Land of Opportunity',
-    aboutDescription:
-      'Canada is consistently ranked among the top countries in the world for quality of life, economic opportunity, and innovation. With a stable political climate, world-class infrastructure, and an open, multicultural society, it offers entrepreneurs a uniquely fertile environment in which to grow their businesses.',
-    aboutSecondary:
-      'The Canadian government actively welcomes foreign business talent through structured programs that reward innovation and ambition. For entrepreneurs ready to make their mark on a global stage, Canada represents an unmatched opportunity.',
-    highlights: [],
-    benefitsIntro:
-      'Securing residency through the Canada Start-Up Visa unlocks a wide range of personal, professional, and family advantages.',
-    benefits: [
-      { title: 'Permanent Residency Pathway', description: 'The program offers a clear and structured route to Canadian permanent residency, providing you and your family with long-term security and stability in one of the world\'s most desirable countries.' },
-      { title: 'World-Class Education', description: 'As a Canadian permanent resident, your children gain access to Canada\'s internationally acclaimed public education system, from primary school through to leading universities, at no additional cost.' },
-      { title: 'Global Business Base', description: 'Canada\'s strategic location and trade agreements give your business access to both North American and global markets, with a stable banking system and strong investment infrastructure.' },
-      { title: 'Family Inclusion', description: 'Your spouse or common-law partner and children under 22 years of age can all be included in your application, ensuring your entire family benefits from this life-changing opportunity.' },
-      { title: 'Dual Citizenship Permitted', description: 'Canada permits dual citizenship, meaning there is no requirement to surrender your existing nationality. Your home country will not be notified of your new Canadian status.' },
-      { title: 'Status Without Borders', description: 'Canadian permanent residents enjoy most of the same rights as citizens, including access to healthcare, education, and the ability to work and do business freely across the country.' },
-    ],
-    processIntro: 'RK Global Immigration manages the entire journey from initial assessment to your arrival in Canada.',
-    processSteps: ['Initial Consultation', 'Business Plan Development', 'Document Collection', 'Designated Organisation Endorsement', 'PR Application Submission', 'Landing in Canada'],
-    requirementsSummary:
-      'The Canada Start-Up Visa program is designed for innovative entrepreneurs who wish to establish or scale a business in Canada. Applicants must have a business idea that is viable, scalable, and genuinely innovative, backed by a commitment letter from a designated Canadian organisation. The program grants an initial stay that can lead to permanent residency, and RK Global Immigration guides you through every stage of the process to ensure a smooth and successful outcome.',
-    requirementsChecklist: [
-      '18 years of age or older',
-      'Good health — no serious medical conditions',
-      'No criminal record',
-      'Business concept endorsed by a designated organisation (venture capital fund, angel investor group, or business incubator)',
-      'Meet English or French language proficiency requirements',
-      'Sufficient settlement funds to support yourself and dependents',
-    ],
-    qualificationDescription: 'Review the detailed options and eligibility criteria below.',
-    qualificationOptions: ['Spouse or common-law partner of the main applicant', 'Biological or adopted children under 22 years of age'],
-    investmentTitle: 'Investment Options for Canada Start-Up Visa',
-    investmentDescription: 'Core financial requirements based on the program.',
-    investmentStats: [
-      { value: 'C$275,000', label: 'Minimum\nInvestment' },
-      { value: 'C$2,385', label: 'Application\nFees' },
-      { value: '10 Years', label: 'Time to\nCitizenship' },
-    ],
-    legalBasis:
-      'The Canada Start-Up Visa program operates under the Immigration and Refugee Protection Act (IRPA) and its associated regulations, which govern Canada\'s immigration system. This legislation empowers qualifying entrepreneurs whose business concepts are endorsed by a designated organisation to obtain Canadian permanent residency. The program is administered by Immigration, Refugees and Citizenship Canada (IRCC) and is legally structured to provide a reliable, government-backed pathway for innovative foreign entrepreneurs.',
-    faqs: [
-      { question: 'What is the Canada Start-Up Visa Program?', answer: 'The Canada Start-Up Visa Program is a business immigration pathway designed for entrepreneurs with innovative business ideas. It connects qualified applicants with designated Canadian organisations and provides a route to permanent residency for those whose businesses receive formal endorsement.' },
-      { question: 'How long does the Canadian PR process take?', answer: 'The application process typically spans around 10 years from initial filing to the granting of permanent residency. Processing times can vary depending on the volume of applications and factors outside the control of authorised agents such as RK Global Immigration.' },
-      { question: 'What language requirements apply?', answer: 'Applicants must demonstrate proficiency in either English or French, meeting the minimum language benchmarks set by the Canadian government. RK Global Immigration advises on the most appropriate language test and the required score for your application.' },
-      { question: 'Can my family come to Canada with me?', answer: 'Yes. Your spouse or common-law partner and your biological or adopted children under 22 years of age may all be included in your application and will be eligible for Canadian permanent residency alongside you.' },
-      { question: 'What types of businesses qualify for the Start-Up Visa?', answer: 'The business must be innovative, viable, and scalable, and must receive endorsement from a designated organisation. Businesses in technology, life sciences, clean energy, and other high-growth sectors are commonly supported, though any qualifying innovative concept can be considered.' },
-    ],
-  }),
+
   buildProgram({
     slug: 'uk-innovator-founder-visa',
     name: 'UK Innovator Founder Visa',
@@ -355,57 +291,7 @@ const businessMigrationPrograms = [
       { question: 'What types of businesses qualify for the D2 Visa?', answer: 'A wide range of business types can qualify under the D2 Visa, provided the business operates or will operate within Portuguese territory and is accompanied by a credible, viable business plan. Technology, consulting, retail, hospitality, and professional services are among the most commonly supported sectors.' },
     ],
   }),
-  buildProgram({
-    slug: 'usa-eb5-investor-visa',
-    name: 'USA EB-5 Investor Visa',
-    menuLabel: 'USA EB-5 Investor Visa',
-    flag: usaFlag,
-    heroImage: usaCountryImg,
-    contactImage: usaContactImg,
-    heroTitle: 'USA EB-5 IMMIGRANT INVESTOR VISA',
-    heroDescription: 'The EB-5 program is the United States\' most direct investment-based route to permanent residency, backed by federal law since 1992.',
-    stats: [
-      { value: '$800,000', label: 'Minimum\nInvestment' },
-      { value: '2 to 3 Years', label: 'Time to\nProcess' },
-      { value: 'Green Card', label: 'Residency\nStatus' },
-      { value: '170+', label: 'Visa-Free\nNations' },
-    ],
-    aboutTitle: 'About the United States',
-    aboutSubtitle: 'A Government-Backed Route to the American Dream',
-    aboutDescription: 'The United States EB-5 Immigrant Investor Program has been a cornerstone of American investment-based immigration since its creation by Congress in 1990. It was designed to stimulate economic growth by granting permanent residency to foreign investors who channel capital into US commercial enterprises and create American jobs.',
-    aboutSecondary: 'The program offers one of the most prestigious residency routes in the world, covering the main investor and their entire immediate family under a single application, and creating a clear and legally defined pathway to a US Green Card.',
-    highlights: [],
-    benefitsIntro: 'The EB-5 Visa delivers permanent US residency for the entire family, backed by one of the world\'s most powerful passports.',
-    benefits: [
-      { title: 'Unmatched Travel Freedom', description: 'As a US permanent resident and eventual citizen, you gain access to one of the most powerful passports in the world, with visa-free or visa-on-arrival access to over 170 countries and territories.' },
-      { title: 'Government-Guaranteed Program', description: 'The EB-5 program has been legally backed by the US government since 1992, providing applicants with a secure, transparent, and well-established pathway to permanent residency.' },
-      { title: 'Pathway to Full US Citizenship', description: 'The EB-5 offers a clear route to citizenship. After five years of lawful permanent residency, you become eligible to apply for full US citizenship and all the rights it entails.' },
-      { title: 'Full Work Authorisation for the Family', description: 'You and every member of your immediate family are fully authorised to work for any employer in the United States in any role and in any industry, with no restrictions whatsoever.' },
-      { title: 'Entire Family Under One Application', description: 'Under a single EB-5 application, the main investor, their spouse, and all unmarried children under 21 each receive conditional Green Cards, simplifying the process for the whole family.' },
-      { title: 'No Language or Education Requirements', description: 'The EB-5 program imposes no requirements in terms of language skills, educational qualifications, or prior business experience, making it accessible to a wide range of investors.' },
-    ],
-    processIntro: 'RK Global Immigration supports you at every stage of this multi-year process from initial screening to unconditional Green Card issuance.',
-    processSteps: ['Initial Screening', 'Document Preparation', 'I-526 Submission and Approval', 'NVC Approval and Embassy Transfer', 'Conditional Green Card Issuance', 'Unconditional Green Cards'],
-    requirementsSummary: 'The EB-5 program was created through the Immigration Act of 1990 to stimulate the US economy by granting permanent residency to foreign entrepreneurs who invest in American commercial enterprises. Applicants must invest a minimum of $800,000 in a qualifying project and create or preserve at least 10 full-time jobs for US workers. The source of investment funds must be fully and legally documented. RK Global Immigration guides you through every stage of the application.',
-    requirementsChecklist: ['18 years of age or older', 'Good health with no serious medical conditions', 'No criminal record', 'Successfully pass due diligence checks', 'Minimum investment of $800,000 in a qualifying US commercial enterprise', 'Fully documented legal source of investment funds'],
-    qualificationDescription: 'Review the detailed options and eligibility criteria below.',
-    qualificationOptions: ['Spouse of the main applicant', 'Unmarried biological or adopted children under 21 years of age'],
-    investmentTitle: 'Investment Details for the USA EB-5 Visa',
-    investmentDescription: 'Core financial requirements based on the program.',
-    investmentStats: [
-      { value: '$800,000', label: 'Minimum\nInvestment' },
-      { value: '$11,160', label: 'I-526E Filing\nFee' },
-      { value: '2 to 3 Years', label: 'Processing\nTime' },
-    ],
-    legalBasis: 'The EB-5 program is established under Section 203(b)(5) of the Immigration and Nationality Act (INA), which allocates up to 10,000 immigrant visas per year to qualified investors seeking Lawful Permanent Resident status on the basis of a qualifying capital investment in a US commercial enterprise that creates or preserves at least 10 full-time jobs for US workers. Regulations governing the program are codified at 8 CFR 204.6 and 8 CFR 216.6.',
-    faqs: [
-      { question: 'What is the USA EB-5 Visa Program?', answer: 'The EB-5 Immigrant Investor Program is a US government initiative that grants permanent residency to foreign investors who make a qualifying investment in a US commercial enterprise and create at least 10 full-time jobs for American workers. It has been in operation since 1992 and is one of the most established investment visa programs in the world.' },
-      { question: 'How long does the EB-5 process take?', answer: 'The complete EB-5 process typically takes between 24 and 36 months from initial filing to the issuance of conditional Green Cards. The removal of conditions and issuance of unconditional Green Cards follows thereafter. RK Global Immigration keeps you informed at every milestone.' },
-      { question: 'What investment is required?', answer: 'The minimum investment amount is $800,000 for investments made in a Targeted Employment Area (TEA). This must be invested in a qualifying US commercial enterprise and must create or preserve at least 10 full-time jobs for US workers.' },
-      { question: 'Can my family come to the USA with me?', answer: 'Yes. Your spouse and all unmarried children under 21 years of age are included under your single EB-5 application and each receive their own conditional Green Card, granting them lawful permanent residency in the United States.' },
-      { question: 'What types of businesses qualify for the EB-5 Visa?', answer: 'The investment must be made into a new commercial enterprise or into a troubled business that is at risk of losing jobs. Many investors participate through SEC-approved Regional Centres, which pool funds for large-scale infrastructure, real estate, or commercial projects across the United States.' },
-    ],
-  }),
+
   buildProgram({
     slug: 'portugal-d7-passive-income-visa',
     name: 'Portugal D7 Passive Income Visa',
@@ -566,6 +452,6 @@ export const businessMigrationProgramMap = Object.fromEntries(
 );
 
 export const defaultBusinessMigrationSlug =
-  businessMigrationPrograms[0]?.slug || 'canada-start-up-visa';
+  businessMigrationPrograms[0]?.slug || 'uk-innovator-founder-visa';
 
 export default businessMigrationPrograms;

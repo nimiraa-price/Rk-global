@@ -8,21 +8,21 @@ const testimonials = [
     id: 1,
     name: 'Mrs. Gayatri',
     location: 'Chennai, TN',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    text: 'RK Global Immigration completely transformed our family\'s future. Their expert team guided us through the entire residency process with unmatched professionalism and clarity.',
     image: 'https://i.pravatar.cc/150?u=a04258a2462d826712d'
   },
   {
     id: 2,
     name: 'Mr. Karan',
     location: 'Kanpur, UP',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    text: 'The team\'s dedication and transparent communication made securing our Caribbean citizenship incredibly smooth. I highly recommend their services to any business owner.',
     image: 'https://i.pravatar.cc/150?u=a042581f4e29026704d'
   },
   {
     id: 3,
     name: 'Mr. Usman',
     location: 'New Delhi',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    text: 'I was overwhelmed by the complexities of the business migration visa, but RK Global provided a tailored strategy that worked perfectly. Truly exceptional service.',
     image: 'https://i.pravatar.cc/150?u=a04258114e29026702d'
   },
   {
@@ -156,23 +156,6 @@ const TestimonialsSection = () => {
         <div className="absolute top-[-545.5px] left-[-545.5px] w-[1091px] h-[542px] rounded-t-[545.5px] border-[1px] border-b-0 border-white/30" />
         {/* Outer Circle (1344x715 -> 672px radius half-circle) */}
         <div className="absolute top-[-672px] left-[-672px] w-[1344px] h-[715px] rounded-t-[672px] border-[1px] border-b-0 border-white/20" />
-
-        {/* Orbiting Images relative to exact same center */}
-        {/* Frequency boosted - more images added across tracks */}
-
-        {/* Inner orbit on 800px circle (radius = 400) */}
-        <OrbitingImage image={testimonials[0].image} radius={400} duration={25} delay={0} size="w-14 h-14" />
-        <OrbitingImage image={testimonials[4].image} radius={400} duration={25} delay={12} size="w-12 h-12" />
-
-        {/* Middle orbit on 1091px circle (radius = 545.5) */}
-        <OrbitingImage image={testimonials[1].image} radius={545.5} duration={35} delay={0} size="w-20 h-20" />
-        <OrbitingImage image={testimonials[2].image} radius={545.5} duration={35} delay={17} size="w-16 h-16" />
-        <OrbitingImage image={testimonials[3].image} radius={545.5} duration={35} delay={8} size="w-14 h-14" />
-
-        {/* Outer orbit on 1344px circle (radius = 672) */}
-        <OrbitingImage image={testimonials[4].image} radius={672} duration={45} delay={0} size="w-14 h-14" />
-        <OrbitingImage image={testimonials[0].image} radius={672} duration={45} delay={22} size="w-16 h-16" />
-        <OrbitingImage image={testimonials[1].image} radius={672} duration={45} delay={11} size="w-12 h-12" />
       </div>
 
       {/* Spacer to push everything to the bottom */}
@@ -217,11 +200,6 @@ const TestimonialsSection = () => {
                 </p>
 
                 <div className="flex items-center gap-4 mt-auto">
-                  <img
-                    src={testimonial.image}
-                    alt={testimonial.name}
-                    className="w-12 h-12 rounded-full object-cover border-2 border-[rgba(255,255,255,0.2)]"
-                  />
                   <div>
                     <h4 className="text-white font-bold text-lg">{testimonial.name}</h4>
                     <span className="text-white/60 text-sm">{testimonial.location}</span>
@@ -254,11 +232,6 @@ const TestimonialsSection = () => {
               </p>
 
               <div className="flex items-center gap-4 mt-auto">
-                <img
-                  src={testimonials[currentIndex].image}
-                  alt={testimonials[currentIndex].name}
-                  className="w-12 h-12 rounded-full object-cover border-2 border-[rgba(255,255,255,0.2)]"
-                />
                 <div>
                   <h4 className="text-white font-bold text-lg">{testimonials[currentIndex].name}</h4>
                   <span className="text-white/60 text-sm">{testimonials[currentIndex].location}</span>

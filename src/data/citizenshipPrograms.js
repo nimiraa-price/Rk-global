@@ -554,7 +554,7 @@ const citizenshipPrograms = [
     stats: [
       { value: 'USD 200,000', label: 'Min. by\nContribution (EDF)' },
       { value: 'USD 200,000', label: 'Min. by\nReal Estate' },
-      { value: '3-9 Months', label: 'Processing\nTime' },
+      { value: '6 Months', label: 'Processing\nTime' },
       { value: '140+ Countries', label: 'Visa-Free\nAccess' },
     ],
     about: {
@@ -594,7 +594,7 @@ const citizenshipPrograms = [
       {
         title: 'Fast Processing',
         description:
-          'Applications are typically approved within 3 to 9 months from submission. The entire process can be completed fully remotely through an authorized agent.',
+          'SECURE FULL CITIZENSHIP WITHIN APPROXIMATELY 6 MONTHS. The entire process can be completed fully remotely through an authorized agent.',
       },
       {
         title: 'For Family',
@@ -656,7 +656,7 @@ const citizenshipPrograms = [
       {
         question: 'How long does the application process take?',
         answer:
-          'The Dominica citizenship application is typically processed within 3 to 9 months from the date of complete submission. The entire process can be completed remotely without any requirement to visit Dominica.',
+          'The Dominica citizenship application is typically processed within approximately 6 months from the date of complete submission. The entire process can be completed remotely without any requirement to visit Dominica.',
       },
       {
         question: 'Which family members can be included in my application?',
@@ -708,6 +708,7 @@ const citizenshipPrograms = [
         'E-2 treaty with the United States',
         'Thriving real estate market',
         'No residency requirement',
+        'Visa-free access to 110+ countries including Japan and South Korea',
       ],
     },
     benefitsIntro:

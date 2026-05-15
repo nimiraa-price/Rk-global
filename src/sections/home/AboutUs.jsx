@@ -48,7 +48,7 @@ const AboutUs = () => {
         <div className="w-full lg:w-[60%] flex flex-col items-start gap-6">
           
           <h2 className="text-[32px] md:text-4xl font-extrabold text-black uppercase tracking-tight">
-            About Us
+            Our Expertise
           </h2>
 
           {/* MOBILE ONLY: Images between Heading and Description */}

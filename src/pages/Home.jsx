@@ -4,6 +4,8 @@ import Hero from '../sections/home/Hero';
 import AboutUs from '../sections/home/AboutUs';
 import CitizenshipPrograms from '../sections/home/CitizenshipPrograms';
 import ResidencePrograms from '../sections/home/ResidencePrograms';
+import BusinessMigrationProgramsShowcase from '../sections/home/BusinessMigrationProgramsShowcase';
+import NomadVisasShowcase from '../sections/home/NomadVisasShowcase';
 import StatsSection from '../sections/home/StatsSection';
 import WhyChooseUs from '../sections/home/WhyChooseUs';
 import ProcessSection from '../sections/home/ProcessSection';
@@ -31,6 +33,12 @@ const Home = () => {
         </motion.div>
         <motion.div {...fadeInUp}>
           <ResidencePrograms />
+        </motion.div>
+        <motion.div {...fadeInUp}>
+          <BusinessMigrationProgramsShowcase />
+        </motion.div>
+        <motion.div {...fadeInUp}>
+          <NomadVisasShowcase />
         </motion.div>
         <motion.div {...fadeInUp}>
           <StatsSection />

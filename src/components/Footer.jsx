@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import footerLogoUrl from '../assets/brand/footer-logo.svg';
 import footerImg from '../assets/images/footerimg.png';
-import { FaTwitter, FaInstagram, FaYoutube, FaTiktok } from 'react-icons/fa';
+import { FaTwitter, FaInstagram, FaTiktok, FaFacebook, FaLinkedin } from 'react-icons/fa';
 import { defaultCitizenshipSlug } from '../data/citizenshipPrograms';
 import { defaultResidenceSlug } from '../data/residencePrograms';
 import { defaultBusinessMigrationSlug } from '../data/businessMigrationPrograms';
@@ -12,7 +12,7 @@ const quickLinks = [
   { to: `/citizenship/${defaultCitizenshipSlug}`, label: 'Citizenship' },
   { to: `/residence/${defaultResidenceSlug}`, label: 'Residence' },
   { to: `/business-migration/${defaultBusinessMigrationSlug}`, label: 'Business Migration' },
-  { to: '/about', label: 'About Us' },
+  { to: '/about', label: 'Our Expertise' },
   { to: '/contact', label: 'Contact Us' },
 ];
 
@@ -43,7 +43,7 @@ const Footer = () => {
         </div>
 
         {/* Center: Links / Info */}
-        <div className="flex flex-col sm:flex-row gap-12 lg:gap-24 lg:w-[40%] pt-4 lg:pl-8">
+        <div className="flex flex-col sm:flex-row gap-12 lg:gap-24 lg:w-[40%] lg:pl-8">
           
           <div className="flex flex-col gap-6">
             <h3 className="text-black font-bold text-lg mb-1">Explore</h3>
@@ -62,9 +62,9 @@ const Footer = () => {
               <span className="text-gray-500 text-sm md:text-base">
                 Meydan Grandstand, 6th floor, Meydan Road, Nad Al Sheba, Dubai, U.A.E.
               </span>
-              {/* <a href="tel:8841234569" className="text-gray-500 hover:text-[#0a2769] transition-colors text-sm md:text-base cursor-pointer">
-                (884) 123-4569
-              </a> */}
+              <a href="tel:+971564158163" className="text-gray-500 hover:text-[#0a2769] transition-colors text-sm md:text-base cursor-pointer">
+                +971 56 415 8163
+              </a>
               <a href="mailto:info@rkglobalimmigration.com" className="text-gray-500 hover:text-[#0a2769] transition-colors text-sm md:text-base cursor-pointer break-all">
                 info@rkglobalimmigration.com
               </a>
@@ -94,13 +94,16 @@ const Footer = () => {
               Follow Us
             </span>
             <a href="#" className="text-[#0a2769] hover:opacity-75 transition-opacity">
+              <FaFacebook size={24} />
+            </a>
+            <a href="#" className="text-[#0a2769] hover:opacity-75 transition-opacity">
               <FaTwitter size={24} />
             </a>
             <a href="#" className="text-[#0a2769] hover:opacity-75 transition-opacity">
                <FaInstagram size={26} />
             </a>
             <a href="#" className="text-[#0a2769] hover:opacity-75 transition-opacity">
-               <FaYoutube size={28} />
+               <FaLinkedin size={26} />
             </a>
             <a href="#" className="text-[#0a2769] hover:opacity-75 transition-opacity">
               <FaTiktok size={23} />

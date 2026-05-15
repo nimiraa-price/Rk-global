@@ -11,7 +11,7 @@ const contactCards = [
   },
   {
     title: 'Call',
-    value: '+00 000000000',
+    value: '+971 56 415 8163',
     Icon: Phone,
   },
   {

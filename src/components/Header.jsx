@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import { ChevronDown } from 'lucide-react';
 
-import logoUrl from '../assets/brand/logo.png';
+import logoUrl from '../assets/brand/logo.svg';
 import footerLogoUrl from '../assets/brand/footer-logo.svg';
 import citizenshipPrograms, { defaultCitizenshipSlug } from '../data/citizenshipPrograms';
 import residencePrograms, { defaultResidenceSlug } from '../data/residencePrograms';
@@ -107,8 +107,8 @@ const Header = () => {
   const textColorClass = shouldShowBg ? 'text-gray-900' : 'text-white';
   const currentLogo = shouldShowBg ? footerLogoUrl : logoUrl;
   const logoSizeClass = shouldShowBg
-    ? 'w-[110px] sm:w-[135px] md:w-[155px]'
-    : 'w-[120px] sm:w-[150px] md:w-[175px]';
+    ? 'w-[150px] sm:w-[180px] md:w-[220px]'
+    : 'w-[160px] sm:w-[200px] md:w-[240px]';
   const hamburgerColor = shouldShowBg ? '#111' : '#fff';
   // Always visible header
   const headerTop = '0px';

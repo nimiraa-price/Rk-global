@@ -14,6 +14,7 @@ import { defaultCitizenshipSlug } from './data/citizenshipPrograms';
 import { defaultResidenceSlug } from './data/residencePrograms';
 import { defaultBusinessMigrationSlug } from './data/businessMigrationPrograms';
 import { defaultDigitalNomadSlug } from './data/digitalNomadPrograms';
+import WhatsAppFloat from './components/WhatsAppFloat';
 
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
         <Route path="*" element={<ComingSoon title="Not Found" />} />
 
       </Routes>
+      <WhatsAppFloat />
       <Footer />
     </BrowserRouter>
   );
