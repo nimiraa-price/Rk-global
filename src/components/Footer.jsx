@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import footerLogoUrl from '../assets/brand/footer-logo.svg';
 import footerImg from '../assets/images/footerimg.png';
-import { FaTwitter, FaInstagram, FaTiktok, FaFacebook, FaLinkedin } from 'react-icons/fa';
+import { FaInstagram, FaFacebook, FaLinkedin } from 'react-icons/fa';
 import { defaultCitizenshipSlug } from '../data/citizenshipPrograms';
 import { defaultResidenceSlug } from '../data/residencePrograms';
 import { defaultBusinessMigrationSlug } from '../data/businessMigrationPrograms';
@@ -43,10 +43,12 @@ const Footer = () => {
         </div>
 
         {/* Center: Links / Info */}
-        <div className="flex flex-col sm:flex-row gap-12 lg:gap-24 lg:w-[40%] lg:pl-8 lg:mt-[104px]">
+        <div className="flex flex-col sm:flex-row gap-12 lg:gap-24 lg:w-[40%] lg:pl-8">
           
           <div className="flex flex-col gap-6">
-            <h3 className="text-black font-bold text-lg mb-1">Explore</h3>
+            <div className="h-16 md:h-20 flex items-center">
+              <h3 className="text-black font-bold text-lg">Explore</h3>
+            </div>
             <div className="flex flex-col gap-4">
               {quickLinks.map((link) => (
                 <NavLink key={link.to} to={link.to} className="text-gray-500 hover:text-[#0a2769] transition-colors text-sm md:text-base cursor-pointer whitespace-nowrap">
@@ -57,7 +59,9 @@ const Footer = () => {
           </div>
 
           <div className="flex flex-col gap-6">
-            <h3 className="text-black font-bold text-lg mb-1">Contact Us</h3>
+            <div className="h-16 md:h-20 flex items-center">
+              <h3 className="text-black font-bold text-lg">Contact Us</h3>
+            </div>
             <div className="flex flex-col gap-4">
               <span className="text-gray-500 text-sm md:text-base">
                 Meydan Grandstand, 6th floor, Meydan Road, Nad Al Sheba, Dubai, U.A.E.
@@ -96,17 +100,11 @@ const Footer = () => {
             <a href="https://www.facebook.com/profile.php?id=61573448872654" target="_blank" rel="noopener noreferrer" className="text-[#0a2769] hover:opacity-75 transition-opacity">
               <FaFacebook size={24} />
             </a>
-            <a href="#" className="text-[#0a2769] hover:opacity-75 transition-opacity">
-              <FaTwitter size={24} />
-            </a>
             <a href="https://www.instagram.com/rkglobal14/" target="_blank" rel="noopener noreferrer" className="text-[#0a2769] hover:opacity-75 transition-opacity">
                <FaInstagram size={26} />
             </a>
             <a href="https://www.linkedin.com/company/rk-global-immigration-services/" target="_blank" rel="noopener noreferrer" className="text-[#0a2769] hover:opacity-75 transition-opacity">
                <FaLinkedin size={26} />
-            </a>
-            <a href="#" className="text-[#0a2769] hover:opacity-75 transition-opacity">
-              <FaTiktok size={23} />
             </a>
           </div>
 
