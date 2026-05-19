@@ -47,6 +47,88 @@ const contactFaqs = [
 
 const Contact = () => {
   const [openFaq, setOpenFaq] = useState(0);
+  const [formData, setFormData] = useState({
+    firstName: '',
+    lastName: '',
+    email: '',
+    phoneNumber: '',
+    subject: 'Select message subject',
+    message: ''
+  });
+  const [status, setStatus] = useState({
+    submitting: false,
+    success: false,
+    error: null
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData(prev => ({
+      ...prev,
+      [name]: value
+    }));
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    if (!formData.firstName.trim()) {
+      setStatus({ submitting: false, success: false, error: 'Please enter your first name.' });
+      return;
+    }
+    if (!formData.email.trim()) {
+      setStatus({ submitting: false, success: false, error: 'Please enter your email address.' });
+      return;
+    }
+    if (!formData.message.trim()) {
+      setStatus({ submitting: false, success: false, error: 'Please enter your message.' });
+      return;
+    }
+
+    setStatus({ submitting: true, success: false, error: null });
+
+    try {
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "Accept": "application/json"
+        },
+        body: JSON.stringify({
+          access_key: "003ef45c-0893-4fe4-845b-aed8c9e7d940",
+          subject: `New Contact Form Enquiry - ${formData.firstName} ${formData.lastName}`,
+          from_name: "RK Global Website",
+          name: `${formData.firstName} ${formData.lastName}`,
+          email: formData.email,
+          "Phone Number": formData.phoneNumber,
+          "Subject Category": formData.subject,
+          Message: formData.message
+        })
+      });
+
+      const result = await response.json();
+      if (response.ok && (result.success === "true" || result.success === true)) {
+        setStatus({ submitting: false, success: true, error: null });
+        setFormData({
+          firstName: '',
+          lastName: '',
+          email: '',
+          phoneNumber: '',
+          subject: 'Select message subject',
+          message: ''
+        });
+      } else {
+        throw new Error(result.message || "Failed to submit form.");
+      }
+    } catch (err) {
+      console.error(err);
+      setStatus({
+        submitting: false,
+        success: false,
+        error: err.message || "Something went wrong. Please try again later."
+      });
+    }
+  };
 
   return (
     <main className="w-full bg-[#f4f6f8] pt-[calc(var(--site-header-height,88px)+14px)] pb-8 md:pb-12 px-3 md:px-6">
@@ -91,10 +173,27 @@ const Contact = () => {
               Fill out the form below, and one of our team members will get back to you shortly.
             </p>
 
-            <form className="mt-5 md:mt-7 grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
+            {status.success && (
+              <div className="mt-4 p-4 bg-emerald-50 border border-emerald-200 text-emerald-800 rounded-xl text-[14px] font-medium transition-all duration-300">
+                Thank you! Your enquiry has been sent successfully. We will get back to you shortly.
+              </div>
+            )}
+            
+            {status.error && (
+              <div className="mt-4 p-4 bg-rose-50 border border-rose-200 text-rose-800 rounded-xl text-[14px] font-medium transition-all duration-300">
+                {status.error}
+              </div>
+            )}
+
+            <form onSubmit={handleSubmit} className="mt-5 md:mt-7 grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
               <label className="flex flex-col gap-1.5">
                 <span className="text-[12px] font-semibold text-[#3d4f62] tracking-wide">First Name</span>
                 <input
+                  type="text"
+                  name="firstName"
+                  value={formData.firstName}
+                  onChange={handleChange}
+                  required
                   className="h-12 rounded-[10px] border border-[#dde3ec] bg-[#f8fafc] px-4 text-[14px] text-[#1a2942] outline-none focus:border-[#0a2769] focus:ring-2 focus:ring-[#0a2769]/10 transition-all duration-200 placeholder:text-[#b0bac5]"
                   placeholder="First name"
                 />
@@ -102,6 +201,10 @@ const Contact = () => {
               <label className="flex flex-col gap-1.5">
                 <span className="text-[12px] font-semibold text-[#3d4f62] tracking-wide">Last Name</span>
                 <input
+                  type="text"
+                  name="lastName"
+                  value={formData.lastName}
+                  onChange={handleChange}
                   className="h-12 rounded-[10px] border border-[#dde3ec] bg-[#f8fafc] px-4 text-[14px] text-[#1a2942] outline-none focus:border-[#0a2769] focus:ring-2 focus:ring-[#0a2769]/10 transition-all duration-200 placeholder:text-[#b0bac5]"
                   placeholder="Last name"
                 />
@@ -110,6 +213,11 @@ const Contact = () => {
               <label className="md:col-span-2 flex flex-col gap-1.5">
                 <span className="text-[12px] font-semibold text-[#3d4f62] tracking-wide">E-mail</span>
                 <input
+                  type="email"
+                  name="email"
+                  value={formData.email}
+                  onChange={handleChange}
+                  required
                   className="h-12 rounded-[10px] border border-[#dde3ec] bg-[#f8fafc] px-4 text-[14px] text-[#1a2942] outline-none focus:border-[#0a2769] focus:ring-2 focus:ring-[#0a2769]/10 transition-all duration-200 placeholder:text-[#b0bac5]"
                   placeholder="you@email.com"
                 />
@@ -118,6 +226,10 @@ const Contact = () => {
               <label className="md:col-span-2 flex flex-col gap-1.5">
                 <span className="text-[12px] font-semibold text-[#3d4f62] tracking-wide">Phone Number</span>
                 <input
+                  type="tel"
+                  name="phoneNumber"
+                  value={formData.phoneNumber}
+                  onChange={handleChange}
                   className="h-12 rounded-[10px] border border-[#dde3ec] bg-[#f8fafc] px-4 text-[14px] text-[#1a2942] outline-none focus:border-[#0a2769] focus:ring-2 focus:ring-[#0a2769]/10 transition-all duration-200 placeholder:text-[#b0bac5]"
                   placeholder="+971 000000000"
                 />
@@ -125,7 +237,12 @@ const Contact = () => {
 
               <label className="md:col-span-2 flex flex-col gap-1.5">
                 <span className="text-[12px] font-semibold text-[#3d4f62] tracking-wide">Subject</span>
-                <select className="h-12 rounded-[10px] border border-[#dde3ec] bg-[#f8fafc] px-4 text-[14px] text-[#1a2942] outline-none focus:border-[#0a2769] focus:ring-2 focus:ring-[#0a2769]/10 transition-all duration-200">
+                <select
+                  name="subject"
+                  value={formData.subject}
+                  onChange={handleChange}
+                  className="h-12 rounded-[10px] border border-[#dde3ec] bg-[#f8fafc] px-4 text-[14px] text-[#1a2942] outline-none focus:border-[#0a2769] focus:ring-2 focus:ring-[#0a2769]/10 transition-all duration-200"
+                >
                   <option>Select message subject</option>
                   <option>Residency by Investment</option>
                   <option>Citizenship by Investment</option>
@@ -136,6 +253,10 @@ const Contact = () => {
               <label className="md:col-span-2 flex flex-col gap-1.5">
                 <span className="text-[12px] font-semibold text-[#3d4f62] tracking-wide">Message</span>
                 <textarea
+                  name="message"
+                  value={formData.message}
+                  onChange={handleChange}
+                  required
                   rows={5}
                   className="rounded-[10px] border border-[#dde3ec] bg-[#f8fafc] px-4 py-3 text-[14px] text-[#1a2942] outline-none focus:border-[#0a2769] focus:ring-2 focus:ring-[#0a2769]/10 transition-all duration-200 resize-none placeholder:text-[#b0bac5]"
                   placeholder="Leave us a message..."
@@ -144,10 +265,11 @@ const Contact = () => {
 
               <div className="md:col-span-2 flex justify-start md:justify-end pt-1">
                 <button
-                  type="button"
-                  className="group h-12 px-7 md:px-9 rounded-full bg-[#C9A84C] hover:bg-[#b5933c] text-white text-[14px] md:text-[17px] font-semibold transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-0.5 active:scale-[0.97] flex items-center gap-2"
+                  type="submit"
+                  disabled={status.submitting}
+                  className="group h-12 px-7 md:px-9 rounded-full bg-[#C9A84C] hover:bg-[#b5933c] text-white text-[14px] md:text-[17px] font-semibold transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-0.5 active:scale-[0.97] flex items-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
                 >
-                  Send Message
+                  {status.submitting ? 'Sending...' : 'Send Message'}
                   <Send size={16} className="transition-transform duration-300 group-hover:translate-x-1" />
                 </button>
               </div>
