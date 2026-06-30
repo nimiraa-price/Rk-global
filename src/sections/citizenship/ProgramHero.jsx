@@ -1,10 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import citizenshipBg from '../../assets/images/citizenship.png';
+import { getBrochurePath } from '../../data/brochures';
 
 const ProgramHero = ({ program }) => {
   const heroImage = program.heroImage || citizenshipBg;
   const category = program.categoryLabel || 'citizenship by investment';
+  const brochurePath = getBrochurePath(program.slug);
 
   return (
     <div className="w-full bg-gray-50 p-2 lg:p-[10px]">
@@ -43,9 +45,24 @@ const ProgramHero = ({ program }) => {
               <Link to="/contact" className="flex-1 md:flex-none md:w-[150px] lg:w-[190px] min-h-[40px] md:h-[48px] lg:h-[54px] text-[10px] md:text-[13px] lg:text-[16px] rounded-[10px] bg-[#C9A84C] hover:bg-[#b5933c] hover:-translate-y-1 hover:shadow-2xl active:scale-95 text-white transition-all duration-300 ease-out shadow-xl flex items-center justify-center font-sans font-semibold lg:font-normal uppercase tracking-[0.12em] lg:tracking-wider px-4 text-center">
                 Apply Now
               </Link>
-              <Link to="/contact" className="flex-1 md:flex-none md:min-w-[150px] lg:min-w-[190px] md:w-auto px-4 md:px-5 lg:px-6 min-h-[40px] md:h-[48px] lg:h-[54px] text-[10px] md:text-[13px] lg:text-[16px] rounded-[10px] bg-white hover:bg-gray-50 hover:-translate-y-1 hover:shadow-2xl active:scale-95 text-gray-900 transition-all duration-300 ease-out shadow-xl flex items-center justify-center font-sans font-semibold lg:font-normal uppercase tracking-[0.08em] lg:tracking-wider text-center whitespace-normal leading-[1.25]">
-                Book a Free Consultation
-              </Link>
+              {brochurePath.startsWith('/Brochure/') ? (
+                <a
+                  href={brochurePath}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  download
+                  className="flex-1 md:flex-none md:min-w-[150px] lg:min-w-[190px] md:w-auto px-4 md:px-5 lg:px-6 min-h-[40px] md:h-[48px] lg:h-[54px] text-[10px] md:text-[13px] lg:text-[16px] rounded-[10px] bg-white hover:bg-gray-50 hover:-translate-y-1 hover:shadow-2xl active:scale-95 text-gray-900 transition-all duration-300 ease-out shadow-xl flex items-center justify-center font-sans font-semibold lg:font-normal uppercase tracking-[0.08em] lg:tracking-wider text-center whitespace-normal leading-[1.25]"
+                >
+                  Download Brochure
+                </a>
+              ) : (
+                <Link
+                  to="/contact"
+                  className="flex-1 md:flex-none md:min-w-[150px] lg:min-w-[190px] md:w-auto px-4 md:px-5 lg:px-6 min-h-[40px] md:h-[48px] lg:h-[54px] text-[10px] md:text-[13px] lg:text-[16px] rounded-[10px] bg-white hover:bg-gray-50 hover:-translate-y-1 hover:shadow-2xl active:scale-95 text-gray-900 transition-all duration-300 ease-out shadow-xl flex items-center justify-center font-sans font-semibold lg:font-normal uppercase tracking-[0.08em] lg:tracking-wider text-center whitespace-normal leading-[1.25]"
+                >
+                  Download Brochure
+                </Link>
+              )}
             </div>
 
             <div className="mt-1 md:mt-2 lg:mt-3">

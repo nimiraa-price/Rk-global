@@ -2,8 +2,8 @@
   "home": {
     "title": "Leading Global Consultancy\nFor Residence And\nCitizenship By Investment.",
     "description": "Join global investors securing valuable second residencies and passports. As a trusted citizenship and residence by investment consultancy, we make international mobility simple, strategic, and achievable.",
-    "primaryButton": "Get In Touch",
-    "secondaryButton": "Know More",
+    "primaryButton": "Apply Now",
+    "secondaryButton": "Download Brochure",
     "background": {
       "type": "video",
       "src": "homeVideo"
@@ -12,8 +12,8 @@
   "citizenship": {
     "title": "GRENADA CITIZENSHIP & PASSPORT\nBY INVESTMENT PROGRAM",
     "description": "The Grenada Citizenship by Investment Programme is one of the most robust Caribbean immigration investment programmes, designed to drive the country’s development through foreign investment. Unique among english speaking Caribbean islands, Grenada holds the E-2 visa treaty with the US, enabling citizens to apply for a non-immigrant visa and reside there.",
-    "primaryButton": "GET IN TOUCH",
-    "secondaryButton": "DOWNLOAD BROCHURE",
+    "primaryButton": "Apply Now",
+    "secondaryButton": "Download Brochure",
     "background": {
       "type": "image",
       "src": "citizenshipBg"
